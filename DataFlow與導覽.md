@@ -9,7 +9,7 @@
 | AWS | <img src="https://user-images.githubusercontent.com/97188330/156326258-ddf8263c-42aa-48af-965a-1ad5c2892589.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
 | GCP | <img src="https://user-images.githubusercontent.com/97188330/156326588-831d464c-0e47-44c7-9e60-8670cd0bc6a5.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
 | Flask | <img src="https://user-images.githubusercontent.com/97188330/156326726-552516bb-2b48-48ad-ae71-70413be2e631.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
-| LineBot | <img src="https://user-images.githubusercontent.com/97188330/156329661-751b6419-1f13-4483-85cc-b93b84e5427f.png" width="100" height="80" alt="MySQL"/><br/>  | github code 連結  |
+| LineBot | <img src="https://user-images.githubusercontent.com/97188330/156329661-751b6419-1f13-4483-85cc-b93b84e5427f.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
 | Docker | <img src="https://user-images.githubusercontent.com/97188330/156326963-59a1beaf-c15a-4fc1-bd4c-ecf7e51d126d.png" width="100" height="80" alt="MySQL"/><br/>  | github code 連結  |
 | OpenCV | <img src="https://user-images.githubusercontent.com/97188330/156327491-75c4a321-7c37-40bc-a9c3-48e4b21b5a4d.png" width="100" height="80" alt="MySQL"/><br/>  | github code 連結  |
 | Python | <img src="https://user-images.githubusercontent.com/97188330/156327613-feb70466-5d37-4539-9a33-41e5c968d4de.png" width="100" height="80" alt="MySQL"/><br/>  | github code 連結  |
