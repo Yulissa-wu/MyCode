@@ -4,7 +4,7 @@
           
 |    技術  |    image   |   code    |     
 | ------------- | ------------- | ------------- |
-| MySQL | <img src="https://user-images.githubusercontent.com/97188330/156323864-9c58796a-0cd4-4417-9824-6fc6f05216b6.png" width="100" height="50" alt="MySQL"/><br/> |  github code 連結 |
+| MySQL | <img src="https://i.imgur.com/XlGhVt2.png" width="100" height="50" alt="MySQL"/><br/> |  github code 連結 |
 | MongoDB | <img src="https://user-images.githubusercontent.com/97188330/156326144-e24d190b-cab3-4dbf-8c90-4a8b721f4cd2.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
 | AWS | <img src="https://user-images.githubusercontent.com/97188330/156326258-ddf8263c-42aa-48af-965a-1ad5c2892589.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
 | GCP | <img src="https://user-images.githubusercontent.com/97188330/156332116-ede238fa-ef9d-4e46-9fd3-eaf6dc1199b3.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
