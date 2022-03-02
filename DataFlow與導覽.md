@@ -5,7 +5,7 @@
 |    技術  |    image   |   code    |     
 | ------------- | ------------- | ------------- |
 | MySQL | <img src="https://i.imgur.com/XlGhVt2.png" width="100" height="50" alt="MySQL"/><br/> |  github code 連結 |
-| MongoDB | <img src="https://i.imgur.com/gV3hzu7.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
+| MongoDB | <img src="https://i.imgur.com/gV3hzu7.png" width="100" height="80" alt="MySQL"/><br/>  | github code 連結  |
 | AWS | <img src="https://i.imgur.com/7mNaYMb.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
 | GCP | <img src="https://i.imgur.com/fLaY7V4.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
 | Flask | <img src="https://i.imgur.com/xQsD61i.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
