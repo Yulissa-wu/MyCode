@@ -10,7 +10,7 @@
 | GCP | <img src="https://i.imgur.com/fLaY7V4.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
 | Flask | <img src="https://i.imgur.com/xQsD61i.png" width="100" height="50" alt="MySQL"/><br/>  | 使用Python Flask架設網頁：  |
 | LineBot | <img src="https://i.imgur.com/SxA0wVj.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
-| Linux | <img src="https://user-images.githubusercontent.com/97188330/156330033-4202cc60-ffd5-4571-b615-6d8675c43028.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
+| Linux | <img src="https://user-images.githubusercontent.com/97188330/156330033-4202cc60-ffd5-4571-b615-6d8675c43028.png" width="100" height="100" alt="MySQL"/><br/>  | 在Liunx上測試程式碼：  |
 | Docker | <img src="https://user-images.githubusercontent.com/97188330/156326963-59a1beaf-c15a-4fc1-bd4c-ecf7e51d126d.png" width="100" height="80" alt="MySQL"/><br/>  | github code 連結  |
 | OpenCV | <img src="https://user-images.githubusercontent.com/97188330/156327491-75c4a321-7c37-40bc-a9c3-48e4b21b5a4d.png" width="100" height="80" alt="MySQL"/><br/>  | OpenCV影像辨識實作：https://github.com/Yulissa-wu/MyCode/blob/main/OpenCV%20Code  |
 | Python | <img src="https://user-images.githubusercontent.com/97188330/156327613-feb70466-5d37-4539-9a33-41e5c968d4de.png" width="100" height="80" alt="MySQL"/><br/>  | github code 連結  |
