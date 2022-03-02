@@ -5,16 +5,16 @@
 |    技術  |    image   |   code    |     
 | ------------- | ------------- | ------------- |
 | MySQL | <img src="https://i.imgur.com/XlGhVt2.png" width="100" height="50" alt="MySQL"/><br/> |  github code 連結 |
-| MongoDB | <img src="https://user-images.githubusercontent.com/97188330/156326144-e24d190b-cab3-4dbf-8c90-4a8b721f4cd2.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
-| AWS | <img src="https://user-images.githubusercontent.com/97188330/156326258-ddf8263c-42aa-48af-965a-1ad5c2892589.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
-| GCP | <img src="https://user-images.githubusercontent.com/97188330/156332116-ede238fa-ef9d-4e46-9fd3-eaf6dc1199b3.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
-| Flask | <img src="https://user-images.githubusercontent.com/97188330/156326726-552516bb-2b48-48ad-ae71-70413be2e631.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
-| LineBot | <img src="https://user-images.githubusercontent.com/97188330/156329661-751b6419-1f13-4483-85cc-b93b84e5427f.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
-| LineBot | <img src="https://user-images.githubusercontent.com/97188330/156330033-4202cc60-ffd5-4571-b615-6d8675c43028.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
+| MongoDB | <img src="https://i.imgur.com/gV3hzu7.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
+| AWS | <img src="https://i.imgur.com/7mNaYMb.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
+| GCP | <img src="https://i.imgur.com/fLaY7V4.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
+| Flask | <img src="https://i.imgur.com/xQsD61i.png" width="100" height="50" alt="MySQL"/><br/>  | github code 連結  |
+| LineBot | <img src="https://i.imgur.com/SxA0wVj.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
+| Linux | <img src="https://user-images.githubusercontent.com/97188330/156330033-4202cc60-ffd5-4571-b615-6d8675c43028.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
 | Docker | <img src="https://user-images.githubusercontent.com/97188330/156326963-59a1beaf-c15a-4fc1-bd4c-ecf7e51d126d.png" width="100" height="80" alt="MySQL"/><br/>  | github code 連結  |
 | OpenCV | <img src="https://user-images.githubusercontent.com/97188330/156327491-75c4a321-7c37-40bc-a9c3-48e4b21b5a4d.png" width="100" height="80" alt="MySQL"/><br/>  | OpenCV影像辨識實作：https://github.com/Yulissa-wu/MyCode/blob/main/OpenCV%20Code  |
 | Python | <img src="https://user-images.githubusercontent.com/97188330/156327613-feb70466-5d37-4539-9a33-41e5c968d4de.png" width="100" height="80" alt="MySQL"/><br/>  | github code 連結  |
 | AIoT | <img src="https://user-images.githubusercontent.com/97188330/156328390-e90ea371-b28d-48b1-b10b-e918df5f6d1c.jpg" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
-| Python爬蟲 | <img src="https://drive.google.com/file/d/1bBarqNNYbfpZE8my-xHTYAH8c9QgO5OW/view?usp=sharing" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
+| Python爬蟲 | <img src="https://i.imgur.com/dCEIjjz.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
 
 
