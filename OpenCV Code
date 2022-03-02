@@ -1,0 +1,151 @@
+import dlib
+import cv2
+import numpy as np
+
+cap = cv2.VideoCapture('./video/newvideo.mp4')  # 開啟影片檔案
+
+w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))  # 取得畫面寬度
+h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))  # 取得畫面高度
+# print(w, h)
+fps = cap.get(cv2.CAP_PROP_FPS)  # 取得影片FPS
+fourcc = cv2.VideoWriter_fourcc(*'XVID')  # 使用 XVID 編碼(MPEG-4)
+
+# 建立 VideoWriter 物件，輸出影片至 newvido_newopencv，FPS 值為 20.0
+out = cv2.VideoWriter('./video/newvideo_newopencv.mp4', fourcc, fps, (w, h), )
+# F_Count = cap.get(cv2.CAP_PROP_FRAME_COUNT)
+# print(F_Count)  # 用於顯示影影片總幀數
+
+fgbg = cv2.createBackgroundSubtractorMOG2(history=1, detectShadows=True)  # MOG2
+detector = dlib.get_frontal_face_detector()  # Dlib 的人臉偵測器
+
+ag = 0
+
+fsize = 0.1
+k=np.ones((5, 5), np.uint8)
+RECT = ((370, 80), (600, 305))
+(left, top), (right, bottom) = RECT
+
+
+def roiarea(frame):  # 取出 ROI 子畫面
+    return frame[top:bottom, left:right]
+
+
+def replaceroi(frame, roi):  # 將 ROI 區域貼回到原畫面
+    frame[top:bottom, left:right] = roi
+    return frame
+
+
+while cap.isOpened():  # 以迴圈從影片檔案讀取影格，並顯示出來
+    ret, frame = cap.read()
+    if not ret:
+        break
+
+    cv2.putText(frame, f'{cap.get(cv2.CAP_PROP_POS_FRAMES)} frames, {cap.get(cv2.CAP_PROP_POS_MSEC):.0f} ms',
+                (500, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 1, cv2.LINE_AA)
+    # 1. reverse
+    if 1 <= cap.get(cv2.CAP_PROP_POS_FRAMES) < 50:
+        frame = cv2.flip(frame, -1)  # 0 : 上下左右顛倒,  -1 : 上下顛倒
+        cv2.putText(frame, "1. reverse", (40, 400), cv2.FONT_HERSHEY_DUPLEX,  # 特效名字
+                    1.2, (255, 255, 255), 1, cv2.LINE_AA)
+    # 2. Face recognition
+    elif 50 <= cap.get(cv2.CAP_PROP_POS_FRAMES) < 100:
+        face_rects, scores, idx = detector.run(frame, 0, -.5)  # 偵測人臉
+        for i, d in enumerate(face_rects):  # 取出所有偵測的結果
+            x1 = d.left();
+            y1 = d.top();
+            x2 = d.right();
+            y2 = d.bottom()
+            text = f'{scores[i]:.2f}, ({idx[i]:0.0f})'
+            cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 4, cv2.LINE_AA)  # 以方框標示偵測的人臉
+            cv2.putText(frame, text, (x1, y1), cv2.FONT_HERSHEY_DUPLEX,  # 標示分數
+                        0.7, (255, 255, 255), 1, cv2.LINE_AA)
+            cv2.putText(frame, "2. Face recognition", (50, 400), cv2.FONT_HERSHEY_DUPLEX,  # 特效名字
+                        1.2, (255, 255, 255), 1, cv2.LINE_AA)
+    # 3. RGB to BGR
+    elif 100 <= cap.get(cv2.CAP_PROP_POS_FRAMES) < 150:
+        frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+        cv2.putText(frame, "3. RGB to BGR", (50, 400), cv2.FONT_HERSHEY_DUPLEX,  # 特效名字
+                    1.2, (255, 255, 255), 1, cv2.LINE_AA)
+    # 4. RGB to GRAY
+    elif 150 <= cap.get(cv2.CAP_PROP_POS_FRAMES) < 200:
+        frame = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
+        frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2BGR)
+        cv2.putText(frame, "4. RGB to GRAY", (50, 400), cv2.FONT_HERSHEY_DUPLEX,  # 特效名字
+                    1.2, (255, 255, 255), 1, cv2.LINE_AA)
+    # 5. MOG bakeground extract
+    elif 200 <= cap.get(cv2.CAP_PROP_POS_FRAMES) < 250:
+        fgmask = fgbg.apply(frame)
+        frame = fgmask
+        frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2BGR)
+        cv2.putText(frame, "5. MOG bakeground extract", (50, 400), cv2.FONT_HERSHEY_DUPLEX,  # 特效名字
+                    1.2, (255, 255, 255), 1, cv2.LINE_AA)
+    # 6. rotate(Clockwise)
+    elif 250 <= cap.get(cv2.CAP_PROP_POS_FRAMES) < 300:
+
+        M1 = cv2.getRotationMatrix2D((w / 2, h / 2), ag, fsize)
+        frame = cv2.warpAffine(frame, M1, (w, h))
+        if ag < 360:
+            ag = ag + 360 / 80  # rotate
+        if fsize < 1:
+            fsize = fsize + 0.9 / 80  # increase size
+        cv2.putText(frame, "6. rotate(Clockwise)", (50, 400), cv2.FONT_HERSHEY_DUPLEX,  # 特效名字
+                    1.2, (255, 255, 255), 1, cv2.LINE_AA)
+    # 7. rotate(counterclockwise)
+    elif 300 <= cap.get(cv2.CAP_PROP_POS_FRAMES) < 350:
+
+        M1 = cv2.getRotationMatrix2D((w / 2, h / 2), ag, fsize)
+        frame = cv2.warpAffine(frame, M1, (w, h))
+        if ag < 360:
+            ag = ag + -360 / 80
+        if fsize < 1:
+            fsize = fsize + 0.9 / 80  # increase size
+
+        cv2.putText(frame, "7. rotate(counterclockwise)", (50, 400), cv2.FONT_HERSHEY_DUPLEX,  # 特效名字
+                    1.2, (255, 255, 255), 1, cv2.LINE_AA)
+    # 8. canny
+    elif 350 <= cap.get(cv2.CAP_PROP_POS_FRAMES) < 400:
+        frame = cv2.Canny(frame, 100, 230)
+        frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2BGR)
+        cv2.putText(frame, "8. canny", (50, 400), cv2.FONT_HERSHEY_DUPLEX,  # 特效名字
+                    1.2, (255, 255, 255), 1, cv2.LINE_AA)
+    # 9. ROI
+    elif 400 <= cap.get(cv2.CAP_PROP_POS_FRAMES) < 450:
+        frame = cv2.resize(frame, (w, h))
+        frame = cv2.flip(frame, 1)
+
+        # 加工囉!
+        roi = roiarea(frame)  # 取出子畫面
+        roi = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)  # BGR to HSV
+        # roi = cv2.cvtColor(roi, cv2.COLOR_BGR2XYZ)          # BGR to XYZ
+
+        frame = replaceroi(frame, roi)  # 將處理完的子畫面貼回到原本畫面中
+
+        cv2.rectangle(frame, RECT[0], RECT[1], (0, 0, 255), 2)  # 在 ROI 範圍處畫個框
+        cv2.putText(frame, "9. ROI", (50, 400), cv2.FONT_HERSHEY_DUPLEX,  # 特效名字
+                    1.2, (255, 255, 255), 1, cv2.LINE_AA)
+    # 10. DoG
+    elif 450 <= cap.get(cv2.CAP_PROP_POS_FRAMES) < 500:
+        f1 = cv2.GaussianBlur(frame, (3, 3), 0)
+        f2 = cv2.GaussianBlur(frame, (5, 5), 0)
+        frame = f1 - f2
+        cv2.putText(frame, "10. DoG", (50, 400), cv2.FONT_HERSHEY_DUPLEX,  # 特效名字
+                    1.2, (255, 255, 255), 1, cv2.LINE_AA)
+    # 11. dilate
+    elif 500 <= cap.get(cv2.CAP_PROP_POS_FRAMES) < 550:
+        frame = cv2.dilate(frame, k)  # try to add iteration
+        cv2.putText(frame, "11. dilate", (50, 400), cv2.FONT_HERSHEY_DUPLEX,  # 特效名字
+                    1.2, (255, 255, 255), 1, cv2.LINE_AA)
+    # 12.Tophat
+    elif 550 <= cap.get(cv2.CAP_PROP_POS_FRAMES) < 622.0:
+        frame = cv2.morphologyEx(frame, cv2.MORPH_TOPHAT, k)
+        cv2.putText(frame, "12.Tophat", (50, 400), cv2.FONT_HERSHEY_DUPLEX,  # 特效名字
+                    1.2, (255, 255, 255), 1, cv2.LINE_AA)
+    cv2.imshow('newvideo_newopencv', frame)  # 顯示結果
+    out.write(frame)  # 寫入影格
+    if cv2.waitKey(1) & 0xFF == 27:  # 等待1ms如果沒有動作就繼續撥放，0xFF = 27是ASCLL碼的Esc，代表按Esc就可以關閉imshow的視窗
+        break
+
+cap.release()
+out.release()
+cv2.destroyAllWindows()
+cv2.waitKey(1)
