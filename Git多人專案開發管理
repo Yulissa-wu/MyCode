@@ -1,20 +1,20 @@
-          Git專案開發管理
+          Git專案開發管理>>>
 
-          指令操作
+          〚 - 指令操作 - 〛
 
           git add：將working directory的檔案add到staging area
           git commit "版本敘述"：將staging area的檔案commit到localrepo
-          git reflog：查看log變更歷史紀錄
           
-          gir reset 版本編號 --模式：
+          git commit –am "版本敘述"：git add + git commit
+          
+          git reflog：查看log變更歷史紀錄
+          gir reset 版本編號 --模式
               mixed：預設模式，拆除commit後，將檔案留在working directory
               soft：拆除commit後，將檔案留在stagine area
               hard：拆除commit後，將檔案刪除
-             
           git restore：
           git revert：
-          git commit –am "版本敘述"：git add + git commit
-       
+             
           git checkout 版本編號/分支名稱：將分支節點移動到指定版本/切換到指定分支
           git branch 分支名稱：新增分支
           git branch –d 分支名稱：刪除分支
@@ -25,7 +25,6 @@
           git clone 網址：利用HTTPS、SSH將GitHub上專案下載下來
           
           git status：查看working directory的狀態
-          git reflog：
           git log：查看版本相關紀錄
           
           目錄底下有.git就代表受到git的版本控制
@@ -33,5 +32,5 @@
           .gitignore：touch .gitgnore，vim gitgnore可將不想要被版本控制的檔案輸入進去
           
           
-          分支含意
+          〚 - 分支含意 - 〛
           
