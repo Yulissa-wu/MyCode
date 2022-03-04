@@ -1,6 +1,23 @@
-          Git專案開發管理>>>
+          Git專案開發管理 >>>
+          
 
           〚 - 指令操作 - 〛
+          
+            --SSH
+          git config user.name：顯示使用者名稱
+          git config user.email：顯示使用者信箱
+          git config user.name "your_name"：設定本地端使用者名稱
+          git config user.email "your_name@example.com"：設定本地端使用者信箱
+          git config --global user.name "your_name"：設定全域使用者名稱
+          git config --global user.email "your_name@example.com"：設定全域使用者信箱位置
+              使用 --global 的參數，表示對於所有的 git project 都會採用這組預設值
+          ls ~/.ssh
+               公鑰：有.pub的是公鑰，公鑰用來上鎖
+               私鑰：沒有.pub的是私鑰，私鑰用來解鎖
+          eval `ssh-agent -s`：啟動SSH agant
+          ssh-add ~/.ssh/id：把私鑰加入ssh agent，每次在開鎖github才可以不用一直帶著私鑰
+          cat ~/.ssh/ 公鑰.pub：
+         
 
           git add：將working directory的檔案add到staging area
           git commit "版本敘述"：將staging area的檔案commit到localrepo
@@ -30,7 +47,6 @@
           目錄底下有.git就代表受到git的版本控制
           git rm --cached：將檔案移除版本控制
           .gitignore：touch .gitgnore，vim gitgnore可將不想要被版本控制的檔案輸入進去
-          Rebase
-          不管是新增、修改、刪除 Commit 都相當方便，用來整理、編輯還沒有推出去的 Commit 相當方便，但通常也只適用於尚未推出去的 Commit。
+          git rebase：重新定義指定分支的基底節點
           〚 - 分支含意 - 〛
           
