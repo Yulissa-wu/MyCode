@@ -12,8 +12,8 @@
           git config --global user.email "your_name@example.com"：設定全域使用者信箱位置
               使用 --global 的參數，表示對於所有的 git project 都會採用這組預設值
           ls ~/.ssh
-               公鑰：有.pub的是公鑰，公鑰用來上鎖
-               私鑰：沒有.pub的是私鑰，私鑰用來解鎖
+              公鑰：有.pub的是公鑰，公鑰用來上鎖
+              私鑰：沒有.pub的是私鑰，私鑰用來解鎖
           eval `ssh-agent -s`：啟動SSH agant
           ssh-add ~/.ssh/id：把私鑰加入ssh agent，每次在開鎖github才可以不用一直帶著私鑰
           cat ~/.ssh/ 公鑰.pub：複製公鑰所有內容
