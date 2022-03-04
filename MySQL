@@ -1,0 +1,58 @@
+01.撰寫一select敘述，查詢Table: DEPT，列出所有資料
+        select * from DEPT
+        
+02.撰寫一select敘述，查詢Table: EMP，列出所有員工的員工姓名(ENAME)、職稱(JOB)、到職日(HIREDATE)、及員工編號(EMPNO)，員工編號需顯示在第一欄
+        select EMPNO, ENAME, JOB, HIREDATE from EMP
+        
+03.撰寫一select敘述，查詢Table: EMP，列出所有到職日(HIREDATE) ，同樣的到職日不重複顯示
+        select distinct HIREDATE from EMP
+        
+04.續第02題，將select敘述加上別名
+        select ENAME EmployeeName, 
+               JOB Title, 
+               HIREDATE HireDate, 
+               EMPNO EmployeeNo
+        from EMP
+        
+05.撰寫一select敘述，查詢Table: EMP，列出員工姓名(ENAME)串接職稱(JOB)，中間用逗號和空白隔開(', ')，並加上別名 NAMEandTITLE
+        select concat(ENAME,', ', JOB) NAMEandTITLE from EMP
+
+06.列出薪資不介於1000到2000元的員工之姓名和薪資
+        select ENAME, SAL from EMP
+        where SAL between 1000 and 2000
+        
+07.列出到職日為1981年的員工之姓名、職稱、到職日，並依到職日遞減排序
+      select ENAME, JOB, HIREDATE
+      from EMP
+      order by
+          HIREDATE desc
+          
+08.列出薪資超過2000元 且 部門編號為10或30 的員工之姓名、薪資，並依序取別名為"EMPLOYEE_NAME"、"SALARY"
+      select ENAME EMPLOYEE_NAME, SAL SALARY
+      from EMP
+      where SAL > 2000 and (DEPTNO = 10 or DEPTNO = 30)
+      
+09.列出有獎金(獎金 不是null，也不是0)的員工之姓名、薪資、獎金，並排序，排序依據為薪資加上獎金
+      select ENAME, SAL, COMM
+      from EMP
+      where COMM is not null and COMM != 0
+      order by 
+          SAL + IFNULL(COMM, 0)
+          
+10.列出員工姓名最後一個字是"S"的員工之姓名、職稱
+      select ENAME, JOB
+      from EMP
+      where ENAME like '%S'
+      
+11.列出職稱為CLERK、SALESMAN，且薪資不等於1100、1300、1500的員工之姓名、職稱、薪資
+      select ENAME, JOB, SAL
+      from EMP
+      where 
+	        (JOB = 'CLERK' or JOB = 'SALESMAN') and
+	        (SAL != 1100 and SAL !=1300 and SAL !=1500)
+          
+12.列出獎金大於薪資1.05倍的員工之姓名、薪資、獎金
+      select ENAME, SAL, COMM
+      from EMP
+      where
+	        COMM > SAL * 1.05
