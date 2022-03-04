@@ -6,7 +6,7 @@
 | ------------- | ------------- | ------------- |
 | Git | <img src="https://user-images.githubusercontent.com/97188330/156695477-23f2b634-7518-4d3a-82be-55eb40fee94e.png" width="90" height="90" alt="MySQL"/><br/> |  Git多人專案開發管理：https://github.com/Yulissa-wu/MyCode/blob/main/Git%20Version%20Control.md |
 | MySQL | <img src="https://i.imgur.com/XlGhVt2.png" width="100" height="50" alt="MySQL"/><br/> |  github code 連結 |
-| MongoDB | <img src="https://i.imgur.com/gV3hzu7.png" width="135" height="50" alt="MySQL"/><br/>  | github code 連結  |
+| MongoDB | <img src="https://i.imgur.com/gV3hzu7.png" width="140" height="50" alt="MySQL"/><br/>  | github code 連結  |
 | AWS | <img src="https://i.imgur.com/7mNaYMb.png" width="100" height="50" alt="MySQL"/><br/>  | 在AWS雲端建立MySQL：  |
 | GCP | <img src="https://i.imgur.com/fLaY7V4.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
 | Flask | <img src="https://i.imgur.com/xQsD61i.png" width="100" height="50" alt="MySQL"/><br/>  | 使用Python Flask架設網頁：  |
