@@ -50,5 +50,10 @@
           git rm --cached：將檔案移除版本控制
           .gitignore：touch .gitgnore，vim gitgnore可將不想要被版本控制的檔案輸入進去
           
-          〚 - 分支含意 - 〛
+          〚 - 分支涵義 - 〛
           
+          Develop：所有程式開發的基礎，不會在此分支進行commit
+          Feature：新功能開發皆透過feature分支進行，commit的時候的commit message為feature/some-function
+          Master：現在的main，不會對此分支進行commit，用來放穩定、可上線的版本
+          Release：用來做上線最後測試，測試完會合併到main、Develop
+          Hotfix：線上版本出現緊急問題在main分支另開分支修復後，再合併回main、Develop
