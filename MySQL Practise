@@ -71,6 +71,7 @@
       group by DEPTNO
       order by 
       	  DEPTNO asc
+	  
 16.請列出職稱、該職稱平均薪資、該職稱人數
       select JOB, AVG(SAL), COUNT(JOB)
       from EMP
