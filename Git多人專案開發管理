@@ -12,8 +12,8 @@
               mixed：預設模式，拆除commit後，將檔案留在working directory
               soft：拆除commit後，將檔案留在stagine area
               hard：拆除commit後，將檔案刪除
-          git restore：
-          git revert：
+          git restore . ：git reset到指定版本編號後，將模式刪除的檔案還原
+          git revert：再做一個新的 Commit，來取消你不要的 Commit
              
           git checkout 版本編號/分支名稱：將分支節點移動到指定版本/切換到指定分支
           git branch 分支名稱：新增分支
@@ -30,7 +30,7 @@
           目錄底下有.git就代表受到git的版本控制
           git rm --cached：將檔案移除版本控制
           .gitignore：touch .gitgnore，vim gitgnore可將不想要被版本控制的檔案輸入進去
-          
-          
+          Rebase
+          不管是新增、修改、刪除 Commit 都相當方便，用來整理、編輯還沒有推出去的 Commit 相當方便，但通常也只適用於尚未推出去的 Commit。
           〚 - 分支含意 - 〛
           
