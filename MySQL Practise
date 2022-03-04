@@ -55,4 +55,32 @@
       select ENAME, SAL, COMM
       from EMP
       where
-	        COMM > SAL * 1.05
+	  COMM > SAL * 1.05
+13.請列出公司每年需發出薪資總和 (不含獎金)
+      select SUM(SAL * 12)
+      from EMP
+      
+14.請列出公司平均月薪
+      select AVG(SAL)
+      from EMP
+      
+15.請列出各部門編號、部門每月發出薪資總和，並依部門編號遞增排序
+      select DEPTNO, SUM(SAL)
+      from EMP
+      group by DEPTNO
+      order by 
+      	  DEPTNO asc
+16.請列出職稱、該職稱平均薪資、該職稱人數
+      select JOB, AVG(SAL), COUNT(JOB)
+      from EMP
+      group by JOB 
+      
+17.請列出部門編號、部門最低薪資、部門最高薪資
+      select EMPNO, MIN(SAL), MIN(SAL)
+      from EMP
+      group by EMPNO
+      
+18.請列出到職年、到職年當年人數
+      select YEAR(HIREDATE), COUNT(*)
+      from EMP
+      group by YEAR(HIREDATE)
