@@ -4,8 +4,7 @@
           
 |    技術  |    image   |   code    |     
 | ------------- | ------------- | ------------- |
-| Git | <img src="https://user-images.githubusercontent.com/97188330/156695477-23f2b634-7518-4d3a-82be-55eb40fee94e.png" width="90" height="90" alt="MySQL"/><br/> |  Git多人專案開發管理：
-https://github.com/Yulissa-wu/MyCode/blob/main/Git%E5%A4%9A%E4%BA%BA%E5%B0%88%E6%A1%88%E9%96%8B%E7%99%BC%E7%AE%A1%E7%90%86.md |
+| Git | <img src="https://user-images.githubusercontent.com/97188330/156695477-23f2b634-7518-4d3a-82be-55eb40fee94e.png" width="90" height="90" alt="MySQL"/><br/> |  Git多人專案開發管理：https://github.com/Yulissa-wu/MyCode/blob/main/Git.md |
 | MySQL | <img src="https://i.imgur.com/XlGhVt2.png" width="100" height="50" alt="MySQL"/><br/> |  github code 連結 |
 | MongoDB | <img src="https://i.imgur.com/gV3hzu7.png" width="120" height="50" alt="MySQL"/><br/>  | github code 連結  |
 | AWS | <img src="https://i.imgur.com/7mNaYMb.png" width="100" height="50" alt="MySQL"/><br/>  | 在AWS雲端建立MySQL：  |
