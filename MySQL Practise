@@ -56,6 +56,7 @@
       from EMP
       where
 	  COMM > SAL * 1.05
+	  
 13.請列出公司每年需發出薪資總和 (不含獎金)
       select SUM(SAL * 12)
       from EMP
