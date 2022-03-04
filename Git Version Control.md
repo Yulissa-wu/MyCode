@@ -1,7 +1,7 @@
    <h1>Git專案開發管理</h1>
           
 
-          〚 - 指令操作 - 〛
+   <h4>〚 - 指令操作 - 〛</h4>
           
             --SSH
           git config user.name：顯示使用者名稱
@@ -50,7 +50,7 @@
           git rm --cached：將檔案移除版本控制
           .gitignore：touch .gitgnore，vim gitgnore可將不想要被版本控制的檔案輸入進去
           
-          〚 - 分支涵義 - 〛
+<h4>〚 - 分支涵義 - 〛</h4>
           
           Develop：所有程式開發的基礎，不會在此分支進行commit
           Feature：新功能開發皆透過feature分支進行，commit的時候的commit message為feature/some-function
