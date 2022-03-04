@@ -16,7 +16,8 @@
                私鑰：沒有.pub的是私鑰，私鑰用來解鎖
           eval `ssh-agent -s`：啟動SSH agant
           ssh-add ~/.ssh/id：把私鑰加入ssh agent，每次在開鎖github才可以不用一直帶著私鑰
-          cat ~/.ssh/ 公鑰.pub：
+          cat ~/.ssh/ 公鑰.pub：複製公鑰所有內容
+                              setting->SSH and GPG keys->new SSH key->paste->take a SSH key's name
          
 
           git add：將working directory的檔案add到staging area
