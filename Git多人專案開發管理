@@ -18,7 +18,6 @@
           ssh-add ~/.ssh/id：把私鑰加入ssh agent，每次在開鎖github才可以不用一直帶著私鑰
           cat ~/.ssh/ 公鑰.pub：複製公鑰所有內容
                               setting->SSH and GPG keys->new SSH key->paste->take a SSH key's name
-         
 
           git add：將working directory的檔案add到staging area
           git commit "版本敘述"：將staging area的檔案commit到localrepo
@@ -37,6 +36,7 @@
           git branch 分支名稱：新增分支
           git branch –d 分支名稱：刪除分支
           git merge 分支名稱：將指定分支合併至當前分支
+          git rebase：重新定義指定分支的基底節點
           
           git push origin 本地分支名稱：將localrepo的檔案複製一份到remoterepo
           git pull origin 遠端分支名稱：將remoterepo的檔案複製一份到localrepo
@@ -45,9 +45,10 @@
           git status：查看working directory的狀態
           git log：查看版本相關紀錄
           
-          目錄底下有.git就代表受到git的版本控制
+            --版本控制
+                    目錄底下有.git就代表受到git的版本控制
           git rm --cached：將檔案移除版本控制
           .gitignore：touch .gitgnore，vim gitgnore可將不想要被版本控制的檔案輸入進去
-          git rebase：重新定義指定分支的基底節點
+          
           〚 - 分支含意 - 〛
           
