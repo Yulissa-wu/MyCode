@@ -157,6 +157,7 @@
       select *
       from EMP
       where SAL < (select MIN(SAL) from EMP where JOB = 'SALESMAN');
+      
 30.請列出到職年(到職日之年)最早的兩年，那兩年到職的員工，並依到職日排序
       select distinct year(HIREDATE)
       from EMP
@@ -173,9 +174,8 @@
       from EMP
       order by year(HIREDATE)
       limit 2)as A)     
-31.請列出主管的主管是KING 的員工
-      找出king,king無主管
-      找出主管的主管是king的
+      
+31.請列出主管的主管是KING 的員工，找出king,king無主管，找出主管的主管是king的
       select EMPNO from EMP -- 先找出king的員工編號=7839 
       where ENAME = "KING"
       -------
@@ -206,9 +206,7 @@
       group by DEPTNO
       having COUNT(distinct s.LEVEL) = 3
 
-33.請列出跟員工姓名最後一字元是S的員工同部門，該部門薪資最低的員工之部門
-      名稱、姓名、薪資
-
+33.請列出跟員工姓名最後一字元是S的員工同部門，該部門薪資最低的員工之部門名稱、姓名、薪資
       select distinct DEPTNO
       from EMP
       where ENAME like '%S'
