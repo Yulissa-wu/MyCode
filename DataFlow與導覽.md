@@ -21,4 +21,4 @@
 | Python爬蟲  | <img src="https://i.imgur.com/K76mxwz.png" width="100" height="120" alt="MySQL"/><br/>  | github code 連結  |
 | HTML  | <img src="https://user-images.githubusercontent.com/97188330/156696638-a82a0c61-68b7-4eb9-ba39-3bf6dffbc0cc.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
 | Tableau  | <img src="https://user-images.githubusercontent.com/97188330/156870405-d9c92876-d547-42ea-a5fa-f0a1c71f49cd.png" width="100" height="100" alt="MySQL"/><br/>  | 資料視覺化-資料蒐集與清洗：https://github.com/Yulissa-wu/MyCode/blob/main/Data%20visualization  |
-| Tableau  | <img src="https://user-images.githubusercontent.com/97188330/156870405-d9c92876-d547-42ea-a5fa-f0a1c71f49cd.png" width="100" height="100" alt="MySQL"/><br/>  | 資料視覺化-繪製圖表與佈署：https://public.tableau.com/app/profile/.45817729/viz/Datavisualization_16467200071340/iMask?publish=yes  |
+| Tableau  | <img src="https://user-images.githubusercontent.com/97188330/156870405-d9c92876-d547-42ea-a5fa-f0a1c71f49cd.png" width="100" height="100" alt="MySQL"/><br/>  | 資料視覺化-繪製圖表與佈署：https://public.tableau.com/app/profile/.45817729/viz/DV_16467202062690/iMask?publish=yes  |
