@@ -1,0 +1,26 @@
+import pymysql
+import pymysql.cursors
+import csv
+
+
+conn = pymysql.connect(host=db1.host, port=db1.port, user=db1.user, passwd=db1.passwd, db=db1.db, charset=db1.charset)  # 與資料庫進行連線
+with conn.cursor() as cursor:  # 開啟游標並取別名
+    sql=f'SQL語法'
+    cursor.execute(sql)  # 提取指令進cursor，並執行
+
+fetch = cursor.fetchall() 
+for row in fetch:
+    # print(row)  # fetchall出來的結果是NoneType
+    row = dict(row)  # 先將依序取出的檔案指定成dict資料型態
+    # print(row)
+    with open('table.csv', 'a', newline='') as f_object:
+        writer_object = writer(f_object)
+        writer_object.writerow(row.values())
+    f_object.close()  # 將dict轉檔成csv檔並且儲存關閉檔案
+    
+    conn.commit()
+    cursor.close()
+    conn.close()
+
+
+
