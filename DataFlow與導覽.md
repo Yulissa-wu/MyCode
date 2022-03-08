@@ -9,7 +9,7 @@
 | MongoDB | <img src="https://i.imgur.com/gV3hzu7.png" width="160" height="50" alt="MySQL"/><br/>  | github code 連結  |
 | AWS | <img src="https://i.imgur.com/7mNaYMb.png" width="100" height="50" alt="MySQL"/><br/>  | 在AWS雲端建立MySQL並佈署到workbench：https://github.com/Yulissa-wu/MyCode/blob/main/AWS-MySQL-DB.md  |
 | GCP | <img src="https://i.imgur.com/fLaY7V4.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
-| Flask | <img src="https://i.imgur.com/xQsD61i.png" width="100" height="50" alt="MySQL"/><br/>  | 使用Python Flask架設網頁：  |
+| Flask | <img src="https://i.imgur.com/xQsD61i.png" width="100" height="50" alt="MySQL"/><br/>  | 使用Flask架設電商網站：  |
 | Heroku  | <img src="https://i.imgur.com/15pC7vH.png" width="100" height="100" alt="MySQL"/><br/>  | Heroku佈署MySQL：  |
 | LineBot | <img src="https://i.imgur.com/SxA0wVj.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
 | Linux | <img src="https://user-images.githubusercontent.com/97188330/156330033-4202cc60-ffd5-4571-b615-6d8675c43028.png" width="100" height="100" alt="MySQL"/><br/>  | 在Liunx上測試程式運作：  |
