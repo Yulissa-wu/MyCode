@@ -358,3 +358,83 @@ LAST_UPDATE_DATE: 預設值NOW()、註解"最後修改日期"
       
 52.請將資料表MEMBER3移除
       drop table MEMBER3
+      
+53.請授予使用者william 對資料庫EXAMPLE底下所有資料表的所有權限
+      grant all
+      on EXAMPLE.*
+      to 'william'@'%'
+
+54.請撤銷william 對資料庫EXAMPLE底下所有資料表的所有權限
+      revoke all
+      on EXAMPLE.*
+      from 'william'@'%';
+      
+55.請新建一個View，名為V_DEPT_ECOUNT，列出部門編號、部門人數
+      create view V_DEPT_ECOUNT
+      as
+      select d.DEPTNO, COUNT(e.DEPTNO)
+      from EMP e
+	right join DEPT d
+		on d.DEPTNO = e.DEPTNO
+      group by d.DEPTNO;
+      
+56.請新建一個View，名為V_DEPT_ECOUNT2，基底資料表為第01題建立的檢視表
+V_DEPT_ECOUNT，並將欄位依序命名為DEPARTMENT_NO、EMPLOYEE_COUNT
+      create view V_DEPT_ECOUNT2(DEPARTMENT_NO, EMPLOYEE_COUNT)
+      as 
+      select * from V_DEPT_ECOUNT;
+
+57.請撰寫一select敘述，用第02題建立的檢視表V_DEPT_ECOUNT2，join資料表DEPT，列出部門名稱、部門人數
+      select DNAME, COUNT(*)
+      from V_DEPT_ECOUNT2 v2
+	join DEPT d
+		on v2.DEPARTMENT_NO = d.DEPTNO
+      group by DEPTNO
+      
+58.請新建一個View，名為V_EMP10，其內含有部門編號10的所有員工資料，並加上with check option限制DML
+      create view V_EMP10
+      as
+	select * from EMP
+	where DEPTNO = 10
+      with check option
+      
+59.請修改檢視表V_DEPT_ECOUNT2，將欄位命名依序改為、EMP_COUNT，其餘部分不變
+      alter table EMP engine INNODB;
+
+
+      alter view V_DEPT_ECOUNT2(EMP_COUNT, DEPT_NO)
+      as
+      select EMPLOYEE_COUNT, DEPARTMENT_NO from V_DEPT_ECOUNT2
+      with cascaded check option;
+
+60.請移除檢視表V_DEPT_ECOUNT2
+      drop view V_DEPT_ECOUNT2
+      
+61.請替資料表DEPT的欄位DNAME，新建唯一索引，並取出適當的Index名稱
+      drop index IDX_DEPT_DNAME on DEPT;
+
+      select DNAME from DEPT
+
+      create unique index IDX_DEPT_DNAME
+      on DEPT(DNAME);
+      
+62.請替資料表EMP的欄位(DEPTNO, ENAME)，新建複合索引，Index名稱為
+IDX_EMP_DEPTNO&ENAME
+      create index `IDX_EMP_DEPTNO&ENAME`
+      on EMP(DEPTNO, ENAME);
+
+63.請新建一個資料表PERSON，欄位描述如下..
+並同時替欄位NAME加上一般索引
+      create table PERSON(
+			NAME varchar(50) not null, 
+                        ID int not null,
+			primary key PK_PERSON_ID(ID),
+                        index IDX_PERSON_NAME(NAME)
+					);
+					
+64.請使用alter table敘述，替資料表DEPT的欄位(DNAME, LOC)加入複合索引
+      alter table DEPT
+      add index `IDX_DEPT_LOC&DNAME`(LOC, DNAME);
+      
+65.請移除第04題建立的索引
+      drop index `IDX_DEPT_LOC&DNAME` on DEPT
