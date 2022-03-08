@@ -7,25 +7,25 @@
 |    技術   |   code    |     
  ------------- | ------------- |
  <img src="https://user-images.githubusercontent.com/97188330/156695477-23f2b634-7518-4d3a-82be-55eb40fee94e.png" width="90" height="90" alt="MySQL"/><br/>Git |  Git多人專案開發管理：https://github.com/Yulissa-wu/MyCode/blob/main/Git%20Version%20Control.md |
-| MySQL | <img src="https://i.imgur.com/XlGhVt2.png" width="100" height="50" alt="MySQL"/><br/> |  MySQL Practise：https://github.com/Yulissa-wu/MyCode/blob/main/MySQL%20Practise |
-| MongoDB | <img src="https://i.imgur.com/gV3hzu7.png" width="160" height="50" alt="MySQL"/><br/>  | github code 連結  |
-| AWS | <img src="https://i.imgur.com/7mNaYMb.png" width="100" height="50" alt="MySQL"/><br/>  | 在AWS雲端建立MySQL並佈署到workbench：https://github.com/Yulissa-wu/MyCode/blob/main/AWS-MySQL-DB.md  |
-| GCP | <img src="https://i.imgur.com/fLaY7V4.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
-| Flask | <img src="https://i.imgur.com/xQsD61i.png" width="100" height="50" alt="MySQL"/><br/>  | 使用Flask架設電商網站(flask部分)：  |
-| Heroku  | <img src="https://i.imgur.com/15pC7vH.png" width="100" height="100" alt="MySQL"/><br/>  | Heroku佈署MySQL：  |
-| LineBot | <img src="https://i.imgur.com/SxA0wVj.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
-| Linux | <img src="https://user-images.githubusercontent.com/97188330/156330033-4202cc60-ffd5-4571-b615-6d8675c43028.png" width="100" height="100" alt="MySQL"/><br/>  | 在Liunx上測試程式運作：  |
-| Docker | <img src="https://user-images.githubusercontent.com/97188330/156326963-59a1beaf-c15a-4fc1-bd4c-ecf7e51d126d.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
-| OpenCV | <img src="https://user-images.githubusercontent.com/97188330/156327491-75c4a321-7c37-40bc-a9c3-48e4b21b5a4d.png" width="100" height="100" alt="MySQL"/><br/>  | OpenCV影像辨識實作code：https://github.com/Yulissa-wu/MyCode/blob/main/OpenCV  |
-| OpenCV | <img src="https://user-images.githubusercontent.com/97188330/156327491-75c4a321-7c37-40bc-a9c3-48e4b21b5a4d.png" width="100" height="100" alt="MySQL"/><br/>  | OpenCV影像辨識實作影片：https://youtu.be/2Remnb8-QdU  |
-| Python | <img src="https://user-images.githubusercontent.com/97188330/156327613-feb70466-5d37-4539-9a33-41e5c968d4de.png" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
-| AIoT | <img src="https://user-images.githubusercontent.com/97188330/156328390-e90ea371-b28d-48b1-b10b-e918df5f6d1c.jpg" width="100" height="100" alt="MySQL"/><br/>  | github code 連結  |
-| Python爬蟲  | <img src="https://i.imgur.com/K76mxwz.png" width="100" height="120" alt="MySQL"/><br/>  | github code 連結  |
-| HTML  | <img src="https://user-images.githubusercontent.com/97188330/156696638-a82a0c61-68b7-4eb9-ba39-3bf6dffbc0cc.png" width="100" height="100" alt="MySQL"/><br/>  | 使用Flask架設電商網站(HTML部分)：  |
-| PyMYSQL  | <img src="https://user-images.githubusercontent.com/97188330/157197156-3ca1b133-39d3-4eb9-94ca-087c5fcfa823.png" width="100" height="100" alt="MySQL"/><br/>  | PyMYSQL獲取資料並存取：https://github.com/Yulissa-wu/MyCode/blob/main/PyMYSQL%20and%20DV  |
-| Tableau  | <img src="https://user-images.githubusercontent.com/97188330/156870405-d9c92876-d547-42ea-a5fa-f0a1c71f49cd.png" width="100" height="100" alt="MySQL"/><br/>  | 資料視覺化-資料蒐集與清洗：https://github.com/Yulissa-wu/MyCode/blob/main/PyMYSQL%20and%20DV  |
-| Tableau  | <img src="https://user-images.githubusercontent.com/97188330/156870405-d9c92876-d547-42ea-a5fa-f0a1c71f49cd.png" width="100" height="100" alt="MySQL"/><br/>  | 資料視覺化-繪製圖表與佈署：https://public.tableau.com/app/profile/.45817729/viz/DV_16467202062690/iMask  |
-| PPT(iMask資料前處理)  | <img src="https://user-images.githubusercontent.com/97188330/157199123-729bc3f0-5695-4279-968c-20755d05b67c.png" width="100" height="100" alt="MySQL"/><br/>  |  https://www.dropbox.com/s/5hiqtr1t6kq0r00/iMask%20%E8%B3%87%E6%96%99%E5%89%8D%E8%99%95%E7%90%86.pdf?dl=0 |
-| PPT(iMask資料視覺化)  | <img src="https://user-images.githubusercontent.com/97188330/157199326-37dfabf8-08a4-4c8a-97a6-99fe7bcf1382.png" width="100" height="100" alt="MySQL"/><br/>  | https://www.dropbox.com/s/c498duoqwp1awmn/iMask%20%E8%B3%87%E6%96%99%E8%A6%96%E8%A6%BA%E5%8C%96.pdf?dl=0  |
+| <img src="https://i.imgur.com/XlGhVt2.png" width="100" height="50" alt="MySQL"/><br/>MySQL |  MySQL Practise：https://github.com/Yulissa-wu/MyCode/blob/main/MySQL%20Practise |
+| <img src="https://i.imgur.com/gV3hzu7.png" width="160" height="50" alt="MySQL"/><br/>MongoDB  | github code 連結  |
+| <img src="https://i.imgur.com/7mNaYMb.png" width="100" height="50" alt="MySQL"/><br/>AWS  | 在AWS雲端建立MySQL並佈署到workbench：https://github.com/Yulissa-wu/MyCode/blob/main/AWS-MySQL-DB.md  |
+| <img src="https://i.imgur.com/fLaY7V4.png" width="100" height="100" alt="MySQL"/><br/>GCP  | github code 連結  |
+| <img src="https://i.imgur.com/xQsD61i.png" width="100" height="50" alt="MySQL"/><br/>Flask  | 使用Flask架設電商網站(flask部分)：  |
+| <img src="https://i.imgur.com/15pC7vH.png" width="100" height="100" alt="MySQL"/><br/>Heroku  | Heroku佈署MySQL：  |
+| <img src="https://i.imgur.com/SxA0wVj.png" width="100" height="100" alt="MySQL"/><br/>LineBot  | github code 連結  |
+| <img src="https://user-images.githubusercontent.com/97188330/156330033-4202cc60-ffd5-4571-b615-6d8675c43028.png" width="100" height="100" alt="MySQL"/><br/>Linux  | 在Liunx上測試程式運作：  |
+| <img src="https://user-images.githubusercontent.com/97188330/156326963-59a1beaf-c15a-4fc1-bd4c-ecf7e51d126d.png" width="100" height="100" alt="MySQL"/><br/>Docker  | github code 連結  |
+| <img src="https://user-images.githubusercontent.com/97188330/156327491-75c4a321-7c37-40bc-a9c3-48e4b21b5a4d.png" width="100" height="100" alt="MySQL"/><br/>OpenCV  | OpenCV影像辨識實作code：https://github.com/Yulissa-wu/MyCode/blob/main/OpenCV  |
+| <img src="https://user-images.githubusercontent.com/97188330/156327491-75c4a321-7c37-40bc-a9c3-48e4b21b5a4d.png" width="100" height="100" alt="MySQL"/><br/>OpenCV  | OpenCV影像辨識實作影片：https://youtu.be/2Remnb8-QdU  |
+| <img src="https://user-images.githubusercontent.com/97188330/156327613-feb70466-5d37-4539-9a33-41e5c968d4de.png" width="100" height="100" alt="MySQL"/><br/>Python  | github code 連結  |
+| <img src="https://user-images.githubusercontent.com/97188330/156328390-e90ea371-b28d-48b1-b10b-e918df5f6d1c.jpg" width="100" height="100" alt="MySQL"/><br/>AIoT  | github code 連結  |
+| <img src="https://i.imgur.com/K76mxwz.png" width="100" height="120" alt="MySQL"/><br/>Python爬蟲  | github code 連結  |
+| <img src="https://user-images.githubusercontent.com/97188330/156696638-a82a0c61-68b7-4eb9-ba39-3bf6dffbc0cc.png" width="100" height="100" alt="MySQL"/><br/>HTML  | 使用Flask架設電商網站(HTML部分)：  |
+| <img src="https://user-images.githubusercontent.com/97188330/157197156-3ca1b133-39d3-4eb9-94ca-087c5fcfa823.png" width="100" height="100" alt="MySQL"/><br/>PyMYSQL  | PyMYSQL獲取資料並存取：https://github.com/Yulissa-wu/MyCode/blob/main/PyMYSQL%20and%20DV  |
+| <img src="https://user-images.githubusercontent.com/97188330/156870405-d9c92876-d547-42ea-a5fa-f0a1c71f49cd.png" width="100" height="100" alt="MySQL"/><br/>Tableau  | 資料視覺化-資料蒐集與清洗：https://github.com/Yulissa-wu/MyCode/blob/main/PyMYSQL%20and%20DV  |
+| <img src="https://user-images.githubusercontent.com/97188330/156870405-d9c92876-d547-42ea-a5fa-f0a1c71f49cd.png" width="100" height="100" alt="MySQL"/><br/>Tableau  | 資料視覺化-繪製圖表與佈署：https://public.tableau.com/app/profile/.45817729/viz/DV_16467202062690/iMask  |
+| <img src="https://user-images.githubusercontent.com/97188330/157199123-729bc3f0-5695-4279-968c-20755d05b67c.png" width="100" height="100" alt="MySQL"/><br/>PPT(iMask資料前處理)  |  https://www.dropbox.com/s/5hiqtr1t6kq0r00/iMask%20%E8%B3%87%E6%96%99%E5%89%8D%E8%99%95%E7%90%86.pdf?dl=0 |
+| <img src="https://user-images.githubusercontent.com/97188330/157199326-37dfabf8-08a4-4c8a-97a6-99fe7bcf1382.png" width="100" height="100" alt="MySQL"/><br/>PPT(iMask資料視覺化)  | https://www.dropbox.com/s/c498duoqwp1awmn/iMask%20%E8%B3%87%E6%96%99%E8%A6%96%E8%A6%BA%E5%8C%96.pdf?dl=0  |
 
 
