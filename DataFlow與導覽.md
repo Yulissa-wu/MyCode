@@ -25,7 +25,7 @@
 | PyMYSQL  | <img src="https://user-images.githubusercontent.com/97188330/157197156-3ca1b133-39d3-4eb9-94ca-087c5fcfa823.png" width="100" height="100" alt="MySQL"/><br/>  | PyMYSQL獲取資料並存取：https://github.com/Yulissa-wu/MyCode/blob/main/PyMYSQL%20and%20DV  |
 | Tableau  | <img src="https://user-images.githubusercontent.com/97188330/156870405-d9c92876-d547-42ea-a5fa-f0a1c71f49cd.png" width="100" height="100" alt="MySQL"/><br/>  | 資料視覺化-資料蒐集與清洗：https://github.com/Yulissa-wu/MyCode/blob/main/PyMYSQL%20and%20DV  |
 | Tableau  | <img src="https://user-images.githubusercontent.com/97188330/156870405-d9c92876-d547-42ea-a5fa-f0a1c71f49cd.png" width="100" height="100" alt="MySQL"/><br/>  | 資料視覺化-繪製圖表與佈署：https://public.tableau.com/app/profile/.45817729/viz/DV_16467202062690/iMask  |
-| PPT(iMask資料前處理)  | <img src="https://user-images.githubusercontent.com/97188330/157199123-729bc3f0-5695-4279-968c-20755d05b67c.png" width="100" height="100" alt="MySQL"/><br/>  |   |
-| PPT(iMask資料視覺化)  | <img src="https://user-images.githubusercontent.com/97188330/157199326-37dfabf8-08a4-4c8a-97a6-99fe7bcf1382.png" width="100" height="100" alt="MySQL"/><br/>  |   |
+| PPT(iMask資料前處理)  | <img src="https://user-images.githubusercontent.com/97188330/157199123-729bc3f0-5695-4279-968c-20755d05b67c.png" width="100" height="100" alt="MySQL"/><br/>  |  https://www.dropbox.com/s/5hiqtr1t6kq0r00/iMask%20%E8%B3%87%E6%96%99%E5%89%8D%E8%99%95%E7%90%86.pdf?dl=0 |
+| PPT(iMask資料視覺化)  | <img src="https://user-images.githubusercontent.com/97188330/157199326-37dfabf8-08a4-4c8a-97a6-99fe7bcf1382.png" width="100" height="100" alt="MySQL"/><br/>  | https://www.dropbox.com/s/c498duoqwp1awmn/iMask%20%E8%B3%87%E6%96%99%E8%A6%96%E8%A6%BA%E5%8C%96.pdf?dl=0  |
 
 
