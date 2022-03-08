@@ -4,12 +4,12 @@ import pymysql.cursors
 import csv
 
 def select_all(table):
-    connection = pymysql.connect(host="us-cdbr-east-05.cleardb.net",
-                             user="b809ff374c792c",
-                             password="bbc8de98",
-                             database="heroku_9a97caadd884ab8",
-                             charset='utf8mb4',
-                             cursorclass=pymysql.cursors.DictCursor)
+    connection = pymysql.connect(host=,
+                             user=,
+                             password=,
+                             database=,
+                             charset=,
+                             cursorclass=)
     with connection.cursor() as cursor:
         sql = f"select * from {table}"
         cursor.execute(sql)
