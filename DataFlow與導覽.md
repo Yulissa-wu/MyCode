@@ -4,9 +4,9 @@
 
 <h3>最後方有專題的PPT</h3>        
           
-|    技術  |    image   |   code    |     
-| ------------- | ------------- | ------------- |
-| Git | <img src="https://user-images.githubusercontent.com/97188330/156695477-23f2b634-7518-4d3a-82be-55eb40fee94e.png" width="90" height="90" alt="MySQL"/><br/> |  Git多人專案開發管理：https://github.com/Yulissa-wu/MyCode/blob/main/Git%20Version%20Control.md |
+|    技術   |   code    |     
+ ------------- | ------------- |
+ <img src="https://user-images.githubusercontent.com/97188330/156695477-23f2b634-7518-4d3a-82be-55eb40fee94e.png" width="90" height="90" alt="MySQL"/><br/>Git |  Git多人專案開發管理：https://github.com/Yulissa-wu/MyCode/blob/main/Git%20Version%20Control.md |
 | MySQL | <img src="https://i.imgur.com/XlGhVt2.png" width="100" height="50" alt="MySQL"/><br/> |  MySQL Practise：https://github.com/Yulissa-wu/MyCode/blob/main/MySQL%20Practise |
 | MongoDB | <img src="https://i.imgur.com/gV3hzu7.png" width="160" height="50" alt="MySQL"/><br/>  | github code 連結  |
 | AWS | <img src="https://i.imgur.com/7mNaYMb.png" width="100" height="50" alt="MySQL"/><br/>  | 在AWS雲端建立MySQL並佈署到workbench：https://github.com/Yulissa-wu/MyCode/blob/main/AWS-MySQL-DB.md  |
