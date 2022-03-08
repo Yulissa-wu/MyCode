@@ -157,84 +157,76 @@
       select *
       from EMP
       where SAL < (select MIN(SAL) from EMP where JOB = 'SALESMAN');
-      
 30.請列出到職年(到職日之年)最早的兩年，那兩年到職的員工，並依到職日排序
       select distinct year(HIREDATE)
       from EMP
       order by year(HIREDATE)
       limit 2
-------
-select ENAME
-from EMP
-where year(HIREDATE) in (1980 or 1981)
-------
-select ENAME
-from EMP
-where year(HIREDATE) in (select * from (select distinct year(HIREDATE)
-from EMP
-order by year(HIREDATE)
-limit 2)as A)
+      ------
+      select ENAME
+      from EMP
+      where year(HIREDATE) in (1980 or 1981)
+      ------
+      select ENAME
+      from EMP
+      where year(HIREDATE) in (select * from (select distinct year(HIREDATE)
+      from EMP
+      order by year(HIREDATE)
+      limit 2)as A)     
+31.請列出主管的主管是KING 的員工
+      找出king,king無主管
+      找出主管的主管是king的
+      select EMPNO from EMP -- 先找出king的員工編號=7839 
+      where ENAME = "KING"
+      -------
+      select EMPNO
+      from EMP 
+      where MGR = (select EMPNO from EMP
+      where ENAME = "KING")
+      -------
+      select ENAME
+      from EMP
+      where MGR in (select EMPNO
+      from EMP 
+      where MGR = (select EMPNO from EMP
+      where ENAME = "KING"))
 
--- select EMPNO, HIREDATE
--- from EMP 
--- where year(HIREDATE) > (select HIREDATE from EMP where MIN(HIREDATE) + 2)1982
--- order by HIREDATE asc
-
--- 03.請列出主管的主管是KING 的員工
--- 找出king,king無主管
--- 找出主管的主管是king的
-select EMPNO from EMP -- 先找出king的員工編號=7839 
-where ENAME = "KING"
--------
-select EMPNO
-from EMP 
-where MGR = (select EMPNO from EMP
-where ENAME = "KING")
--------
-select ENAME
-from EMP
-where MGR in (select EMPNO
-from EMP 
-where MGR = (select EMPNO from EMP
-where ENAME = "KING"))
-
--- 04.請列出部門內員工薪資有3種薪資等級之部門名稱、部門所在地
-select * from SAL_LEVEL
-select * from EMP
-select * from DEPT
-e.DEPTNO, COUNT(distinct s.LEVEL) 
+32.請列出部門內員工薪資有3種薪資等級之部門名稱、部門所在地
+      select * from SAL_LEVEL
+      select * from EMP
+      select * from DEPT
+      e.DEPTNO, COUNT(distinct s.LEVEL) 
            
-select d.DNAME, d.LOC
-from EMP e
+      select d.DNAME, d.LOC
+      from EMP e
 	join SAL_LEVEL s
 	on e.SAL between SAL_MIN and SAL_MAX
-    join DEPT d
-    on e.DEPTNO = d.DEPTNO
-group by DEPTNO
-having COUNT(distinct s.LEVEL) = 3
+      join DEPT d
+        on e.DEPTNO = d.DEPTNO
+      group by DEPTNO
+      having COUNT(distinct s.LEVEL) = 3
 
--- 05.請列出跟員工姓名最後一字元是S的員工同部門，該部門薪資最低的員工之部門
--- 名稱、姓名、薪資
+33.請列出跟員工姓名最後一字元是S的員工同部門，該部門薪資最低的員工之部門
+      名稱、姓名、薪資
 
-select distinct DEPTNO
-from EMP
-where ENAME like '%S'
------
-select DEPTNO, MIN(SAL)
-from EMP
-where DEPTNO = 20 or DEPTNO = 30
-group by DEPTNO
------
-select d.DNAME, e.SAL, e.ENAME
-from EMP e
+      select distinct DEPTNO
+      from EMP
+      where ENAME like '%S'
+      -----
+      select DEPTNO, MIN(SAL)
+      from EMP
+      where DEPTNO = 20 or DEPTNO = 30
+      group by DEPTNO
+      -----
+      select d.DNAME, e.SAL, e.ENAME
+      from EMP e
 	join DEPT d
-    on e.DEPTNO = d.DEPTNO
-where e.DEPTNO = 20 and e.SAL = 800.00 or e.DEPTNO = 30 and e.SAL = 950.00
------
-select DEPTNO, MIN(SAL)
-from EMP
-where DEPTNO in (select distinct DEPTNO
-from EMP
-where ENAME like '%S')
-group by DEPTNO
--- 子查詢的就是= DEPTNO = 20 or DEPTNO = 30
+      on e.DEPTNO = d.DEPTNO
+      where e.DEPTNO = 20 and e.SAL = 800.00 or e.DEPTNO = 30 and e.SAL = 950.00
+      -----
+      select DEPTNO, MIN(SAL)
+      from EMP
+      where DEPTNO in (select distinct DEPTNO
+      from EMP
+      where ENAME like '%S')
+      group by DEPTNO
