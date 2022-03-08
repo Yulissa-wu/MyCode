@@ -2,4 +2,5 @@
 <img src="https://user-images.githubusercontent.com/97188330/157154054-a42c979c-0777-439d-941d-12420195b3cf.png" width="1300" height="1000" alt="MySQL"/><br/>
 <h1>設定安全群組規則</h1>
 <img src="https://user-images.githubusercontent.com/97188330/157154946-f05c28f1-fa9b-4860-9609-06979f341270.png" width="1000" height="250" alt="MySQL"/><br/>
-
+<h1>佈署在MySQLworkbench上</h1>
+<img src="https://user-images.githubusercontent.com/97188330/157156330-47185940-f240-41dd-a7f9-74452fa5f510.png" width="1000" height="250" alt="MySQL"/><br/>
