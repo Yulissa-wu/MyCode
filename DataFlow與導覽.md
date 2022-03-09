@@ -6,7 +6,7 @@
           
 |    技術             |   code    |     
  ------------- | ------------- |
- <img src="https://user-images.githubusercontent.com/97188330/156695477-23f2b634-7518-4d3a-82be-55eb40fee94e.png" width="300" height="90" alt="MySQL"/><br/><tr><td align="center" valign="center">Git</td></tr> |  Git多人專案開發管理：https://github.com/Yulissa-wu/MyCode/blob/main/Git%20Version%20Control.md |
+ <img src="https://user-images.githubusercontent.com/97188330/156695477-23f2b634-7518-4d3a-82be-55eb40fee94e.png" width="300" height="90" alt="MySQL"/><br/>   Git |  Git多人專案開發管理：https://github.com/Yulissa-wu/MyCode/blob/main/Git%20Version%20Control.md |
 | <img src="https://i.imgur.com/XlGhVt2.png" width="100" height="50" alt="MySQL"/><br/>MySQL |  MySQL Practise：https://github.com/Yulissa-wu/MyCode/blob/main/MySQL%20Practise |
 | <img src="https://i.imgur.com/gV3hzu7.png" width="160" height="50" alt="MySQL"/><br/>MongoDB  | github code 連結  |
 | <img src="https://i.imgur.com/7mNaYMb.png" width="100" height="50" alt="MySQL"/><br/>AWS  | 在AWS雲端建立MySQL並佈署到workbench：https://github.com/Yulissa-wu/MyCode/blob/main/AWS-MySQL-DB.md  |
