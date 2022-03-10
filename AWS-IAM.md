@@ -8,3 +8,8 @@
         
         將使用者加入群組
         下載csv檔獲得 使用者帳號、密碼、access key ID、Secret access key、Console login link
+<h1>建立角色</h1>
+<img src="https://user-images.githubusercontent.com/97188330/157649979-578e0493-8e96-40bb-bee8-a3d755e1da2d.png" width="1300" height="500" alt="MySQL"/><br/>
+
+        角色可以做為資源與資源存取權限的橋樑
+
