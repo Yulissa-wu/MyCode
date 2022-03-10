@@ -1,4 +1,5 @@
 <h1>製作開機磁碟</h1>
+
           插入 microSD
           使用 SD Memory Card Formatter 格式化 microSD
           下載 Raspberry Pi OS with Desktop
