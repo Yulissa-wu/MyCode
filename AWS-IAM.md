@@ -7,3 +7,4 @@
 <img src="https://user-images.githubusercontent.com/97188330/157648770-039075c2-e636-4b43-98b0-a7fced50a0d5.png" width="1300" height="500" alt="MySQL"/><br/>
         
         將使用者加入群組
+        下載csv檔獲得 使用者帳號、密碼、access key ID、Secret access key、Console login link
