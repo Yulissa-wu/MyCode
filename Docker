@@ -35,6 +35,7 @@
        <<映像檔>>
        1.docker search <映像檔名稱>：找尋指定映像檔，會顯示docker hub的帳號/映像檔，official是否官方，automated是否自動更新
        2.docker images：查看docker映像檔一覽
+       3.docker pull <映像檔名>：要下載的映像檔，如果沒有指定版本就會下載最新版本
        
        <<容器>>
        1.docker ps -a：查看docker容器一覽，status Exited容器關閉
@@ -42,10 +43,6 @@
        3.docker rm <容器 ID>：刪除指定的容器
        
        <<倉庫>>
-       1.
-       2.
-       3.
-       
 
        
                 
