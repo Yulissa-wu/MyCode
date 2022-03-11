@@ -46,6 +46,7 @@
                                            -t讓Docker分配一個虛擬終端機（pseudo-tty）並綁定到容器的標準輸入上(螢幕)
                                            變成root不會影響host與虛擬層
                                            ctrl + p + q 離開
+                                           -it可以避免容器被關閉，docker ps -a的status會是Up X minutes
        3.docker rm <容器 ID>：刪除指定的容器
        
        <<倉庫>>
