@@ -6,3 +6,8 @@
 <h1>遠端連線虛擬機</h1>
 <img src="https://user-images.githubusercontent.com/97188330/157796993-2e7fb06a-db6d-4456-815c-124f70c5f548.png" width="1300" height="500" alt="MySQL"/><br/>
 <img src="https://user-images.githubusercontent.com/97188330/157796708-233a7f4e-87be-42bb-99e8-9791b1bd5959.png" width="1300" height="500" alt="MySQL"/><br/>
+
+          Download key pair
+          可以在mobaXterm User private key開啟下載的鑰匙
+          可以勾選想要知道連線資訊的虛擬機，User name獲得mobaXterm連線用的User name，並填入MobaXterm Specify username
+          
