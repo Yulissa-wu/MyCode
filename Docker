@@ -2,6 +2,17 @@
 　　　　1.建立虛擬機(AWS-EC2 or GCP-Compute Engine，此次使用AWS-EC2)
 　　　　(2-1、2-2擇一做)
 　　　　2-1.在創建虛擬機時填入UserData下載docker
+         #!/bin/bash
+         yum update -y
+         yum install -y git
+         amazon-linux-extras install docker
+         yum install docker -y
+         service docker start
+         systemctl enable docker
+         usermod -a -G docker ec2-user
+         curl -L "https://github.com/docker/compose/releases/download/1.29.0/docker-compose-$(uname-s)-$(uname -m)" -o /usr/local/bin/docker-composechmod +x /usr/local/bin/docker-compose
+         ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
 　　　　2-2-1.創建虛擬機後再mobaXterm填入Public IP address(EC2虛擬機介面勾選虛擬機->Connect)、Specify username、Use private key
          sudo yum update -y：更新yum的套件庫清單 
 　　　　　sudo yum install -y git：安裝git
