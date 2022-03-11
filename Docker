@@ -33,10 +33,10 @@
        2.docker-compose --version
        
        <<映像檔>>
-       1.docker search <映像檔名稱>：找尋指定映像檔，會顯示docker hub的帳號/映像檔，official是否官方，automated是否自動更新
-       2.docker images：查看docker映像檔一覽
+       1.docker images：查看docker映像檔一覽
+       2.docker search <映像檔名稱>：找尋指定映像檔，會顯示docker hub的帳號/映像檔，official是否官方，automated是否自動更新
        3.docker pull <映像檔名>：要下載的映像檔，如果沒有指定版本就會下載最新版本
-       4.docker rmi <映像檔 ID>：也可用TAG或名稱刪除
+       4.docker rmi <映像檔 ID>：也可用TAG或名稱刪除，刪除指定的映像檔
        
        <<容器>>
        1.docker ps -a：查看docker容器一覽，status Exited容器關閉
