@@ -40,7 +40,11 @@
        
        <<容器>>
        1.docker ps -a：查看docker容器一覽，status Exited容器關閉
-       2.docker run --name <要取的名字>：建立容器並取名
+       2.docker run -d --name <要取的名字>：建立容器並取名，
+                                           -d希望在run容器的時候不要把使用者從EC2->docker->容器，而是留在EC2
+                                           -i讓容器的標準輸入保持打開(鍵盤、滑鼠)
+                                           -t讓Docker分配一個虛擬終端機（pseudo-tty）並綁定到容器的標準輸入上(螢幕)
+                                           
        3.docker rm <容器 ID>：刪除指定的容器
        
        <<倉庫>>
