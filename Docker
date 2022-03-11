@@ -1,5 +1,6 @@
 
 　　　　1.建立虛擬機(AWS-EC2 or GCP-Compute Engine，此次使用AWS-EC2)
+    
 　　　　(2-1、2-2擇一做)
 　　　　2-1.在創建虛擬機時填入UserData下載docker
          #!/bin/bash
@@ -26,13 +27,16 @@
 　　　　　　　　　　　　sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose：設定軟連結，讓docker在任何使用者都可以操作
                       
 　　　　2-2-2.重開機後Docker version
+    
        <<容器>>
 　　　　3.docker ps -a：查看docker容器一覽，status Exited容器關閉
        4.docker run --name <要取的名字>：建立容器並取名
-       5.docker rm <容器 ID>
-       6.docker search <映像檔名稱>
+       5.docker rm <容器 ID>：刪除指定的容器
+       
        <<映像檔>>
+       6.docker search <映像檔名稱>
        7.docker images：查看docker映像檔一覽
+       
        <<docker-compose>>
        8.下載docker-compose
        9.docker-compose --version
