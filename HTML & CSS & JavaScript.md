@@ -1,40 +1,40 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  # 設定檔類型聲明
-<html xmlns="http://www.w3.org/1999/xhtml">  # 使用XHTML命名空間W3 
+          <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  # 設定檔類型聲明
+          <html xmlns="http://www.w3.org/1999/xhtml">  # 使用XHTML命名空間W3 
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  # 設定內容的編碼
-<meta http-equiv="Content-language" content="zh-tw">  # 設定內容的語言
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />  #設定X-UA-Compatible，使MicrosoftEdge網站顯示正常
-<meta name="author" content="作者資訊">  # meta標籤屬性author，定義作者
-<meta name="copyright" content="版權或者著作聲明">  # meta標籤屬性copyright，標示網頁的版權或者著作聲明
-<meta name="keywords" content="網站的關鍵字">  # meta標籤屬性keywords，標示網站的關鍵字
-<meta name="description" content="網站的描述">  # meta標籤屬性的description，標示網站的描述
-<meta name="robots" content="NOODP">  # 不使用開放式分類目錄搜尋系統
+          <head>
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  # 設定內容的編碼
+          <meta http-equiv="Content-language" content="zh-tw">  # 設定內容的語言
+          <meta http-equiv="X-UA-Compatible" content="IE=Edge" />  #設定X-UA-Compatible，使MicrosoftEdge網站顯示正常
+          <meta name="author" content="作者資訊">  # meta標籤屬性author，定義作者
+          <meta name="copyright" content="版權或者著作聲明">  # meta標籤屬性copyright，標示網頁的版權或者著作聲明
+          <meta name="keywords" content="網站的關鍵字">  # meta標籤屬性keywords，標示網站的關鍵字
+          <meta name="description" content="網站的描述">  # meta標籤屬性的description，標示網站的描述
+          <meta name="robots" content="NOODP">  # 不使用開放式分類目錄搜尋系統
 
-<meta property="og:title" content="PChome 線上購物首頁">  # meta標籤屬性的property，標示網站的標題，如果沒有設此標籤，則爬蟲會抓取 <title> 的內容
-<meta property="og:type" content="website">  # meta標籤屬性的property，標示網站的類型
-<meta property="og:url" content="https://">  # meta標籤屬性的property，標示網站的url
-<meta property="og:image" content="http://.png">  # meta標籤屬性的property，標示網站的預覽圖
-<meta property="og:description" content="">  # meta標籤屬性的property，標示網站的描述
-<meta property="og:site_name" content="網站名稱">  # meta標籤屬性的property，標示網站名稱
+          <meta property="og:title" content="PChome 線上購物首頁">  # meta標籤屬性的property，標示網站的標題，如果沒有設此標籤，則爬蟲會抓取 <title> 的內容
+          <meta property="og:type" content="website">  # meta標籤屬性的property，標示網站的類型
+          <meta property="og:url" content="https://">  # meta標籤屬性的property，標示網站的url
+          <meta property="og:image" content="http://.png">  # meta標籤屬性的property，標示網站的預覽圖
+          <meta property="og:description" content="">  # meta標籤屬性的property，標示網站的描述
+          <meta property="og:site_name" content="網站名稱">  # meta標籤屬性的property，標示網站名稱
 
-<title>網站名稱</title>  # 標示網站的標題
+          <title>網站名稱</title>  # 標示網站的標題
 
-<link rel="apple-touch-icon" type="image/x-icon" href="https://e.ecimg.tw/img/icon/24-64x64.ico" sizes="64x64" />  # link標籤的rel(relationship)屬性內容app
-<link rel="icon" type="image/x-icon" href="https://e.ecimg.tw/img/icon/24-64x64.ico" sizes="64x64" />  # link標籤的rel(relationship)屬性用於標示icon的圖片，size可以用於使圖片縮放成需要的大小
-<link rel="icon" type="image/x-icon" href="https://e.ecimg.tw/img/icon/24-32x32.ico" sizes="32x32" />  # icon是網頁瀏覽的時候在索引頁旁邊的該索引頁的小圖
-<link rel="icon" type="image/x-icon" href="https://e.ecimg.tw/img/icon/24-16x16.ico" sizes="16x16" /> 
-<link rel="canonical" href="https://">  # link標籤rel(relationship)屬性用於聲明網頁標準網址
-<link href="https://ecshweb.pchome.com.tw/opensearch_shopping.xml" rel="search" type="application/opensearchdescription+xml" title="PChome 線上購物 商品搜尋"/>
-<link type="text/css" href="//d.ecimg.tw/img/min/shopping/css/index/hpcssv9.2-20220119144150.css" rel="stylesheet">
-<script> var conf_misc={"isGCSPic":{"itemPic":true,"layoutPic":false,"otherPic":false},"apiDomain":{"ecshop_prodapi":"domain_cloudflare","ecshop_cateapi":"domain_cloudflare","ecshop":"domain_cloudflare","ecshop_recommendapi":"domain_cloudflare","marketing":"domain_cloudflare","xdsys":"domain_cloudflare","ecshop_adapi":"domain_cloudflare"}},isBlockOpen={"Cutprice":1,"Replenish":1}; </script>
+          <link rel="apple-touch-icon" type="image/x-icon" href="https://e.ecimg.tw/img/icon/24-64x64.ico" sizes="64x64" />  # link標籤的rel(relationship)屬性內容app
+          <link rel="icon" type="image/x-icon" href="https://e.ecimg.tw/img/icon/24-64x64.ico" sizes="64x64" />  # link標籤的rel(relationship)屬性用於標示icon的圖片，size可以用於使圖片縮放成需要的大小
+          <link rel="icon" type="image/x-icon" href="https://e.ecimg.tw/img/icon/24-32x32.ico" sizes="32x32" />  # icon是網頁瀏覽的時候在索引頁旁邊的該索引頁的小圖
+          <link rel="icon" type="image/x-icon" href="https://e.ecimg.tw/img/icon/24-16x16.ico" sizes="16x16" /> 
+          <link rel="canonical" href="https://">  # link標籤rel(relationship)屬性用於聲明網頁標準網址
+          <link href="https://ecshweb.pchome.com.tw/opensearch_shopping.xml" rel="search" type="application/opensearchdescription+xml" title="PChome 線上購物 商品搜尋"/>
+          <link type="text/css" href="//d.ecimg.tw/img/min/shopping/css/index/hpcssv9.2-20220119144150.css" rel="stylesheet">
+          <script> var conf_misc={"isGCSPic":{"itemPic":true,"layoutPic":false,"otherPic":false},"apiDomain":{"ecshop_prodapi":"domain_cloudflare","ecshop_cateapi":"domain_cloudflare","ecshop":"domain_cloudflare","ecshop_recommendapi":"domain_cloudflare","marketing":"domain_cloudflare","xdsys":"domain_cloudflare","ecshop_adapi":"domain_cloudflare"}},isBlockOpen={"Cutprice":1,"Replenish":1}; </script>
 
-<!-- Google Tag Manager -->  # Google Tag Manger
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TKSM5PF');</script>
+          <!-- Google Tag Manager -->  # Google Tag Manger
+          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-TKSM5PF');</script>
 <!-- End Google Tag Manager -->
 
 <script type="text/javascript" src="//f.ecimg.tw/img/min/shopping/js/index/hpjsv10.2-20220217161422.js"></script>
