@@ -44,7 +44,7 @@
                                            -d希望在run容器的時候不要把使用者從EC2->docker->容器，而是留在EC2
                                            -i讓容器的標準輸入保持打開(鍵盤、滑鼠)
                                            -t讓Docker分配一個虛擬終端機（pseudo-tty）並綁定到容器的標準輸入上(螢幕)
-                                           變成root不會影響host
+                                           變成root不會影響host與虛擬層
        3.docker rm <容器 ID>：刪除指定的容器
        
        <<倉庫>>
