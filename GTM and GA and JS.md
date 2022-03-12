@@ -15,6 +15,6 @@
          Google Analytics (分析) 設定->新增變數->填入GA的追蹤編號
          
 <h1>JavaScript</h1>
-<img src="https://user-images.githubusercontent.com/97188330/158021604-3e7f9e8f-9b53-4f6f-b3d1-1fde6b71a59b.png" width="1000" height="1300" alt="MySQL"/><br/>
+<img src="https://user-images.githubusercontent.com/97188330/158021604-3e7f9e8f-9b53-4f6f-b3d1-1fde6b71a59b.png" width="800" height="1300" alt="MySQL"/><br/>
 
          在程式碼內埋碼，依照需求寫入需要功能的JSON，並放入HTML
