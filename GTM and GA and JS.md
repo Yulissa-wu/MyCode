@@ -9,10 +9,12 @@
          
 <img src="https://user-images.githubusercontent.com/97188330/157867657-6b2cb8ff-790b-4a9e-af59-eac20637c4ae.png" width="1300" height="500" alt="MySQL"/><br/>
 <img src="https://user-images.githubusercontent.com/97188330/158019549-6fb926d6-59a9-4502-b6e3-3efb6745a5ca.png" width="1300" height="500" alt="MySQL"/><br/>
+<h1>Google Analytics</h1>
 <img src="https://user-images.githubusercontent.com/97188330/158019756-72cbfd09-df8a-4792-927a-6ee9111c70d0.png" width="1300" height="500" alt="MySQL"/><br/>
 
          Google Analytics (分析) 設定->新增變數->填入GA的追蹤編號
          
+<h1>JavaScript</h1>
 <img src="https://user-images.githubusercontent.com/97188330/158021604-3e7f9e8f-9b53-4f6f-b3d1-1fde6b71a59b.png" width="1300" height="500" alt="MySQL"/><br/>
 
          在程式碼內埋碼，依照需求寫入需要功能的JSON，並放入HTML
