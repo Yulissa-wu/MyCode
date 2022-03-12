@@ -47,7 +47,7 @@
           <!-- End Google Tag Manager (noscript) -->
           # 視功能與需求做網頁的切版與功能實作
 
-<!-- ie8-recommend start -->
+          <!-- ie8-recommend start -->  # 瀏覽器相關提醒
 <div class="ie8-recommend unblock">
  <span class="overlay-shadow"></span>
  <div class="overlay-lightbox">
