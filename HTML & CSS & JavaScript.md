@@ -33,38 +33,18 @@
           <script></script>
           <!-- End Google Tag Manager -->
 
-<script type="text/javascript" src="//f.ecimg.tw/img/min/shopping/js/index/hpjsv10.2-20220217161422.js"></script>
-<!--<script type="text/javascript" src="//f.ecimg.tw/img/min/shopping/js/index/hpjsv9-20220120082916.js"></script>-->
-<script type="text/javascript" src="/cdn/index/v4.2/data&202203111850"></script>
-<script type="text/javascript">
-var conf_misc = conf_misc || {} ;
-var intLastModified60M = parseInt((new Date().getTime())/3600000) ;
-var intLastModified10M = parseInt((new Date().getTime())/600000) ;
-var intLastModified05M = parseInt((new Date().getTime())/300000) ;
-var intLastModified01M = parseInt((new Date().getTime())/60000) ;
-var objLastMod = {
-     'ad/welcome': intLastModified01M
-    ,'ad/onsale': intLastModified01M
-    ,'underage': intLastModified60M
-    ,'cutprice/prod': intLastModified60M
-    ,'replenish/prod': intLastModified60M
-    ,'about/activity': intLastModified10M
-    ,'region/sign': intLastModified05M
-    ,'venraas/planb': intLastModified60M
-} ;
-var isUseVenRaas = 1 ;
-</script>
-<script>
-    var strImgDomain =  "//a.ecimg.tw" ;
-</script>
-</head>
+          <script type="text/javascript" src=".js"></script>  # 使用jQuery使用JS語法實作功能
+          <script type="text/javascript" src="/cdn/"></script>  # 使用Cloud CDN使網站加速
+          <script type="text/javascript"></script> #視需求塞入需要的JS語法，以搭配GTM與GA做使用
+          <script>var strImgDomain =  "" ;</script>  # 將獲取的圖片放到變數後方
+          </head>
 
 
 
 
 
-<body>
-          <!-- Google Tag Manager (noscript) -->
+          <body>
+          <!-- Google Tag Manager (noscript) -->  # Google Tag Manger
           <noscript><iframe src=""></iframe></noscript>
           <!-- End Google Tag Manager (noscript) -->
           
