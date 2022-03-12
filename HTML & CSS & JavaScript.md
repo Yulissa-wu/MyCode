@@ -20,22 +20,18 @@
 
           <title>網站名稱</title>  # 標示網站的標題
 
-          <link rel="apple-touch-icon" type="image/x-icon" href="https://e.ecimg.tw/img/icon/24-64x64.ico" sizes="64x64" />  # link標籤的rel(relationship)屬性內容app
-          <link rel="icon" type="image/x-icon" href="https://e.ecimg.tw/img/icon/24-64x64.ico" sizes="64x64" />  # link標籤的rel(relationship)屬性用於標示icon的圖片，size可以用於使圖片縮放成需要的大小
-          <link rel="icon" type="image/x-icon" href="https://e.ecimg.tw/img/icon/24-32x32.ico" sizes="32x32" />  # icon是網頁瀏覽的時候在索引頁旁邊的該索引頁的小圖
-          <link rel="icon" type="image/x-icon" href="https://e.ecimg.tw/img/icon/24-16x16.ico" sizes="16x16" /> 
+          <link rel="apple-touch-icon" type="image/x-icon" href="https://.ico" sizes="64x64" />  # link標籤的rel(relationship)屬性內容app
+          <link rel="icon" type="image/x-icon" href="https://.ico" sizes="64x64" />  # link標籤的rel(relationship)屬性用於標示icon的圖片，size可以用於使圖片縮放成需要的大小
+          <link rel="icon" type="image/x-icon" href="https://.ico" sizes="32x32" />  # icon是網頁瀏覽的時候在索引頁旁邊的該索引頁的小圖
+          <link rel="icon" type="image/x-icon" href="https://.ico" sizes="16x16" /> 
           <link rel="canonical" href="https://">  # link標籤rel(relationship)屬性用於聲明網頁標準網址
           <link href="https://ecshweb.pchome.com.tw/opensearch_shopping.xml" rel="search" type="application/opensearchdescription+xml" title="PChome 線上購物 商品搜尋"/>
           <link type="text/css" href="//d.ecimg.tw/img/min/shopping/css/index/hpcssv9.2-20220119144150.css" rel="stylesheet">
           <script> var conf_misc={"isGCSPic":{"itemPic":true,"layoutPic":false,"otherPic":false},"apiDomain":{"ecshop_prodapi":"domain_cloudflare","ecshop_cateapi":"domain_cloudflare","ecshop":"domain_cloudflare","ecshop_recommendapi":"domain_cloudflare","marketing":"domain_cloudflare","xdsys":"domain_cloudflare","ecshop_adapi":"domain_cloudflare"}},isBlockOpen={"Cutprice":1,"Replenish":1}; </script>
 
           <!-- Google Tag Manager -->  # Google Tag Manger
-          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-TKSM5PF');</script>
-<!-- End Google Tag Manager -->
+          <script></script>
+          <!-- End Google Tag Manager -->
 
 <script type="text/javascript" src="//f.ecimg.tw/img/min/shopping/js/index/hpjsv10.2-20220217161422.js"></script>
 <!--<script type="text/javascript" src="//f.ecimg.tw/img/min/shopping/js/index/hpjsv9-20220120082916.js"></script>-->
@@ -68,10 +64,10 @@ var isUseVenRaas = 1 ;
 
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKSM5PF"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+          <!-- Google Tag Manager (noscript) -->
+          <noscript><iframe src=""></iframe></noscript>
+          <!-- End Google Tag Manager (noscript) -->
+          
 <div id="GLOBALWRAPPER" class="hp_w">
 <div id="WRAPPER" class="style_shopping">
 <!-- HEADER start -->
