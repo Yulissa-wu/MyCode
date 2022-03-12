@@ -48,13 +48,14 @@
           # 視功能與需求做網頁的切版與功能實作
 
           <!-- ie8-recommend start -->  # 瀏覽器相關提醒
-  <p>為提升交易安全，建議您<span class="msg">使用下列瀏覽器</span>，即可順利購買。<br />請您先檢查電腦是否已安裝，如未安裝可點選圖示進行下載。</p>
-  <ul class="list_browser">
-   <li><a class="chrome" href="https://www.google.com.tw/chrome/browser/desktop/" target="_blank">下載Chrome瀏覽器</a></li>
-   <li><a class="firefox" href="https://www.mozilla.org/zh-TW/firefox/new/" target="_blank">下載Firefox瀏覽器</a></li>
-
-
-<!-- ie8-recommend end -->
-<div class="autocomplete_overlay"></div>
+          <div class=ie8>
+           <p>為提升交易安全，建議您<span class="msg">使用下列瀏覽器</span>，即可順利購買。<br />請您先檢查電腦是否已安裝，如未安裝可點選圖示進行下載。</p>
+           <ul class=browser>
+            <li><a class="chrome" href="https://www.google.com.tw/chrome/browser/desktop/" target="_blank">下載Chrome瀏覽器</a></li>
+            <li><a class="firefox" href="https://www.mozilla.org/zh-TW/firefox/new/" target="_blank">下載Firefox瀏覽器</a></li>
+           </ul>
+          </div>
+          <!-- ie8-recommend end -->
+          <div class="autocomplete_overlay"></div>  # 在輸入欄位做建議
           </body>
           </html>
