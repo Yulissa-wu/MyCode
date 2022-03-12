@@ -25,8 +25,8 @@
           <link rel="icon" type="image/x-icon" href="https://.ico" sizes="32x32" />  # icon是網頁瀏覽的時候在索引頁旁邊的該索引頁的小圖
           <link rel="icon" type="image/x-icon" href="https://.ico" sizes="16x16" /> 
           <link rel="canonical" href="https://">  # link標籤rel(relationship)屬性用於聲明網頁標準網址
-          <link href="https://ecshweb.pchome.com.tw/opensearch_shopping.xml" rel="search" type="application/opensearchdescription+xml" title="PChome 線上購物 商品搜尋"/>
-          <link type="text/css" href="//d.ecimg.tw/img/min/shopping/css/index/hpcssv9.2-20220119144150.css" rel="stylesheet">
+          <link href="https://.xml" rel="search" type="application/opensearchdescription+xml" title="搜尋功能"/>  # searchTerms帶入變數至資料庫或cash撈取資料並回傳給使用者
+          <link type="text/css" href="//.css" rel="stylesheet"> # external CSS
           <script>  </script>  # CloudFlare CDN服務，可以有效加速網站載入速度，並且阻擋惡意流量，可以代管DNS。
 
           <!-- Google Tag Manager -->  # Google Tag Manger
