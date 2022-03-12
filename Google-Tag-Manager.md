@@ -6,6 +6,7 @@
          做好網站代碼設定
          
 <img src="https://user-images.githubusercontent.com/97188330/157867657-6b2cb8ff-790b-4a9e-af59-eac20637c4ae.png" width="1300" height="500" alt="MySQL"/><br/>
-Google Analytics (分析) 設定->新增變數->
+         Google Analytics (分析) 設定->新增變數->
+
 
 ->GA
