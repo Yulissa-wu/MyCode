@@ -27,7 +27,7 @@
           <link rel="canonical" href="https://">  # link標籤rel(relationship)屬性用於聲明網頁標準網址
           <link href="https://ecshweb.pchome.com.tw/opensearch_shopping.xml" rel="search" type="application/opensearchdescription+xml" title="PChome 線上購物 商品搜尋"/>
           <link type="text/css" href="//d.ecimg.tw/img/min/shopping/css/index/hpcssv9.2-20220119144150.css" rel="stylesheet">
-          <script> var conf_misc={"isGCSPic":{"itemPic":true,"layoutPic":false,"otherPic":false},"apiDomain":{"ecshop_prodapi":"domain_cloudflare","ecshop_cateapi":"domain_cloudflare","ecshop":"domain_cloudflare","ecshop_recommendapi":"domain_cloudflare","marketing":"domain_cloudflare","xdsys":"domain_cloudflare","ecshop_adapi":"domain_cloudflare"}},isBlockOpen={"Cutprice":1,"Replenish":1}; </script>
+          <script>  </script>  # CloudFlare CDN服務，可以有效加速網站載入速度，並且阻擋惡意流量，可以代管DNS。
 
           <!-- Google Tag Manager -->  # Google Tag Manger
           <script></script>
