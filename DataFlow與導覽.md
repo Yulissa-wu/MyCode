@@ -19,6 +19,7 @@
 | <img src="https://user-images.githubusercontent.com/97188330/157197156-3ca1b133-39d3-4eb9-94ca-087c5fcfa823.png" width="100" height="100" alt="MySQL"/><br/>PyMYSQL  | PyMYSQL獲取資料並存取：https://github.com/Yulissa-wu/MyCode/blob/main/PyMYSQL%20and%20DV  |
 | <img src="https://user-images.githubusercontent.com/97188330/158023152-1c104efb-e860-4819-ba0c-701f6e34e1ac.png" width="150" height="100" alt="MySQL"/><br/>PyMongo  | PyMongo  |
 | <img src="https://user-images.githubusercontent.com/97188330/156326963-59a1beaf-c15a-4fc1-bd4c-ecf7e51d126d.png" width="100" height="100" alt="MySQL"/><br/>Docker  | Docker虛擬容器架設：https://github.com/Yulissa-wu/MyCode/blob/main/Docker  |
+| <img src="https://user-images.githubusercontent.com/97188330/156330033-4202cc60-ffd5-4571-b615-6d8675c43028.png" width="100" height="100" alt="MySQL"/><br/>Linux  | 在文字界面達到與圖形化界面相同的功能：  |
 | <img src="https://user-images.githubusercontent.com/97188330/156870405-d9c92876-d547-42ea-a5fa-f0a1c71f49cd.png" width="100" height="100" alt="MySQL"/><br/>Tableau  | 資料視覺化-資料蒐集與清洗：https://github.com/Yulissa-wu/MyCode/blob/main/PyMYSQL%20and%20DV  |
 | <img src="https://user-images.githubusercontent.com/97188330/156870405-d9c92876-d547-42ea-a5fa-f0a1c71f49cd.png" width="100" height="100" alt="MySQL"/><br/>Tableau  | 資料視覺化-繪製圖表與佈署：https://public.tableau.com/app/profile/.45817729/viz/DV_16467202062690/iMask  |
 | <img src="https://i.imgur.com/K76mxwz.png" width="100" height="120" alt="MySQL"/><br/>Python爬蟲  | P爬蟲  |
