@@ -39,7 +39,7 @@
        4.docker rmi <映像檔 ID>：也可用TAG或名稱刪除，刪除指定的映像檔
        
        <<容器>>
-       1.docker ps -a：查看docker容器一覽，status Exited容器關閉
+       1.docker ps -a：查看docker容器一覽，status Up容器開啟，status Exited容器關閉，如無-a會顯示活著的容器
        2.docker run -it <容器的映像檔> --name <要取的名字>：建立容器並取名，每個容器名稱就是每個服務名、Domain域名
                                            -d希望在run容器的時候不要把使用者從EC2->docker->容器，而是留在EC2
                                            -i讓容器的標準輸入保持打開(鍵盤、滑鼠)
