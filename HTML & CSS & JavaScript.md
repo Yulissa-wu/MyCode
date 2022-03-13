@@ -1,4 +1,5 @@
 <h1>HTML</h1>
+
           <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  # 設定檔類型聲明
           <html xmlns="http://www.w3.org/1999/xhtml">  # 使用XHTML命名空間W3 
 
