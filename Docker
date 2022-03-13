@@ -56,6 +56,10 @@
                                              在本機或虛擬機建立資料夾->創建容器並將本機資料映射到(複製一份)容器內，host或容器內的folder內的資料刪除就會彼此"同步"
                                              mkdir logs->touch logs/test.txt->ls logs/->-v ./ or $PWD/ logs:logs->
                                              "保存"到本地端後即使容器刪掉本地端資料也會保留->想要進一步"帶入"到新容器就再開容器時-v
+                                           --network：--link已棄用(容器串容器)，透過自定義網路(wifi路由器)，使用容器連接(連接wifi)，就可以讓容器之間彼此通信
+                                                      可以進入A容器之後輸入ping B容器就可以查看是否連線成功
+                                                      create <network名稱>->A容器 --network->B容器 --network->exec進入A容器pingB容器
+       3.docker network create <network名稱>：創造一個network
        3.docker exec -it <容器 ID> <要使用的功能 ex.bash>：進入容器並啟用-it功能，使用bash功能
        4.docker start <容器 ID>：啟動容器，status Up
        5.docker stop <容器 ID>：暫停容器，status Exited(會完整的斷電)
