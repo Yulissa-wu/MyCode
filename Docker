@@ -55,9 +55,10 @@
                                            -v想要達到容器刪掉但資料保留，就可以使用資料對應-v host folder(虛擬機 folder):容器 folder即可將路徑內的資料夾的資料去做保留
                                              在本機或虛擬機建立資料夾->創建容器並將本機資料映射到(複製一份)容器內，host或容器內的folder內的資料刪除就會彼此同步
                                              mkdir logs->touch logs/test.txt->ls logs/->-v ./ or $PWD/ logs:logs
-       3.docker rm <容器 ID>：刪除指定的容器，容器如果不需要就直接刪除再創一個新的
+       3.docker exec -it <容器 ID> <要使用的功能 ex.bash>：進入容器並啟用-it功能，使用bash功能
+       4.docker rm <容器 ID>：刪除指定的容器，容器如果不需要就直接刪除再創一個新的
                               -f可以讓docker Up中的容器強制被刪除
-       4.docker logs <容器 ID>：可查看容器相關紀錄
+       5.docker logs <容器 ID>：可查看容器相關紀錄
        
        <<倉庫>>
        1.Docker Hub：可至Docker Hub搜尋需要下載的映像檔並下載
