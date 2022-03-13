@@ -40,7 +40,7 @@
        
        <<容器>>
        1.docker ps -a：查看docker容器一覽，status Exited容器關閉
-       2.docker run -it <容器的映像檔> --name <要取的名字>：建立容器並取名，
+       2.docker run -it <容器的映像檔> --name <要取的名字>：建立容器並取名，每個容器名稱就是每個服務名、Domain域名
                                            -d希望在run容器的時候不要把使用者從EC2->docker->容器，而是留在EC2
                                            -i讓容器的標準輸入保持打開(鍵盤、滑鼠)
                                            -t讓Docker分配一個虛擬終端機（pseudo-tty）並綁定到容器的標準輸入上(螢幕)
@@ -57,9 +57,12 @@
                                              mkdir logs->touch logs/test.txt->ls logs/->-v ./ or $PWD/ logs:logs->
                                              "保存"到本地端後即使容器刪掉本地端資料也會保留->想要進一步"帶入"到新容器就再開容器時-v
        3.docker exec -it <容器 ID> <要使用的功能 ex.bash>：進入容器並啟用-it功能，使用bash功能
-       4.docker rm <容器 ID>：刪除指定的容器，容器如果不需要就直接刪除再創一個新的
+       4.docker start <容器 ID>：啟動容器，status Up
+       5.docker stop <容器 ID>：暫停容器，status Exited(會完整的斷電)
+       6.docker restart <容器 ID>：重新啟動，但不會完整斷電再啟動，可再status Up時使用
+       7.docker rm <容器 ID>：刪除指定的容器，容器如果不需要就直接刪除再創一個新的
                               -f可以讓docker Up中的容器強制被刪除
-       5.docker logs <容器 ID>：可查看容器相關紀錄
+       8.docker logs <容器 ID>：可查看容器相關紀錄
        
        <<倉庫>>
        1.Docker Hub：可至Docker Hub搜尋需要下載的映像檔並下載
