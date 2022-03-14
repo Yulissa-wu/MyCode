@@ -60,13 +60,14 @@
                                                       可以進入A容器之後輸入ping B容器就可以查看是否連線成功
                                                       create <network名稱>->A容器 --network->B容器 --network->exec進入A容器pingB容器
        3.docker network create <network名稱>：創造一個network
-       3.docker exec -it <容器 ID> <要使用的功能 ex.bash、ls、ping>：進入容器並啟用-it功能，使用bash功能，attach僅可進入容器，不可使用bash功能下指令，所以通常會使用exec
-       4.docker start <容器 ID>：啟動容器，status Up
-       5.docker stop <容器 ID>：暫停容器，status Exited(會完整的斷電)
-       6.docker restart <容器 ID>：重新啟動，但不會完整斷電再啟動，可再status Up時使用
-       7.docker rm <容器 ID>：刪除指定的容器，容器如果不需要就直接刪除再創一個新的
+       4.docker exec -it <容器 ID> <要使用的功能 ex.bash、ls、ping>：進入容器並啟用-it功能，使用bash功能，attach僅可進入容器，不可使用bash功能下指令，所以通常會使用exec
+       5.docker start <容器 ID>：啟動容器，status Up
+       6.docker stop <容器 ID>：暫停容器，status Exited(會完整的斷電)
+       7.docker restart <容器 ID>：重新啟動，但不會完整斷電再啟動，可再status Up時使用
+       8.docker rm <容器 ID>：刪除指定的容器，容器如果不需要就直接刪除再創一個新的
                               -f可以讓docker Up中的容器強制被刪除
-       8.docker logs <容器 ID>：可查看容器相關紀錄
+       9.docker logs <容器 ID>：可查看容器相關紀錄
+       10.docker inspect <容器 ID>：查看容器詳細資訊
        
        <<倉庫>>
        1.Docker Hub：可至Docker Hub搜尋需要下載的映像檔並下載
