@@ -68,6 +68,7 @@
                               -f可以讓docker Up中的容器強制被刪除
        9.docker logs <容器 ID>：可查看容器相關紀錄
        10.docker inspect <容器 ID>：查看容器詳細資訊
+       11.docker stats <容器 ID>：查看容器記憶體、CPU等等相關資訊(類似於top)
        
        <<倉庫>>
        1.Docker Hub：可至Docker Hub搜尋需要下載的映像檔並下載
