@@ -72,7 +72,8 @@
        
        <<倉庫>>
        1.Docker Hub：可至Docker Hub搜尋需要下載的映像檔並下載
-       2.
+       2.docker commit <容器 ID> <Docker Hub帳號/commit 註解>:<版本號Tag>：將容器打包成映像檔
+       3.docker push <Docker Hub帳號/commit 註解>:<版本號Tag>：將host(虛擬機)的docker映像檔上傳至Docker Hub
 
        
                 
