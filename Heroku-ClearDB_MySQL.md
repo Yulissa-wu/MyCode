@@ -19,6 +19,5 @@
       
 <img src="https://user-images.githubusercontent.com/97188330/158341424-8eb28b1a-a459-48e7-af0d-de2c2c5860f2.png" width="1100" height="300" alt="MySQL"/><br/>
 <img src="https://user-images.githubusercontent.com/97188330/158341942-c1e49b91-c3ad-4d92-894b-968ba3ade3d8.png" width="1100" height="400" alt="MySQL"/><br/>
-
-
-
+      
+      點擊資料庫名稱->Community Edition->System Information，獲得Access Credentials
