@@ -84,8 +84,8 @@
 
 ---
 
-	1. tar -zcvf file1.tar.gz dir1：壓縮
-	2. tar -zxvf file1.tar.gz：解壓縮
+	1. tar -zcvf <壓縮檔名稱>.tar.gz <目錄>：將目錄與目錄內的檔案壓縮
+	2. tar -zxvf <壓縮檔名稱>.tar.gz：解壓縮
 
 ---
 
