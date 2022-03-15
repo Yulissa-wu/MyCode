@@ -102,10 +102,10 @@
 	1. /etc/passwd：紀錄系統帳號相關資訊
 	2. su <帳號>：切換成指定帳號，需要輸入密碼，如果沒有指定帳號則是切換到root，exit可返回原帳號
 	3. sudo -i：切換成root，使用當前使用者密碼登入
-	4. sudo：暫時使用root權限執行指令
-	5. useradd：新增帳號
-	6. usermod：修改帳號
-	7. userdel：刪除帳號
+	4. sudo <指令>：暫時使用root權限執行指令
+	5. useradd <帳號名稱>：新增帳號
+	6. usermod <選項> <帳號名稱>：修改帳號
+	7. userdel <帳號名稱>：刪除帳號
 	8. users/who/w：顯示目前登入系統的帳號
 	9. group 帳號：查詢帳號的群組
 	10. id 帳號：查詢帳號的ID
