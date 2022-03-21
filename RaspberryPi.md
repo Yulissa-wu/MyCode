@@ -11,7 +11,7 @@
 <img src="https://user-images.githubusercontent.com/97188330/157582359-b9448838-311c-4069-99db-2889381cd738.jpg" width="500" height="350" alt="MySQL"/><br/>
 <h1>MQTT</h1>
 
-    Server(LocalComputer、VM) MQTT Broker
+    <<Server(LocalComputer、VM) MQTT Broker>>
           1. 登入 console.cloud.google.com
           2. 建立並切換至新專案
           3. 啟用 Compute Engine
@@ -30,7 +30,7 @@
           10. (optional) DNS 指向外部 IP 位址 (mqttip)
           11. SSH 連線 GCE VM 執行個體 mqtt
           12. sudo apt-get update; sudo apt-get install -y mosquito; sudo timedatectl set-timezone Asia/Taipei
-    Server(LocalComputer、VM) MQTT Subscriber
+    <<Server(LocalComputer、VM) MQTT Subscriber>>
           1. pip install paho-mqtt
           2. import paho.mqtt.client as mqtt
              def on_connect(client, userdata, flags, rc):
@@ -44,7 +44,7 @@
             client.on_message = on_message
             client.connect(YOUR_BROKER, 1883, 60)
             client.loop_forever()
-    Client MQTT Publisher
+    <<Client MQTT Publisher>>
           1. from time import strftime
              from paho.mqtt import publish
              YOUR_BROKER = 'YOUR_BROKER'
