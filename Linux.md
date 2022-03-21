@@ -229,9 +229,8 @@
 
 ---
 
-	1. help：
-	2. alias：設定別名
-	3. unalias：移除別名
-	4. source：手動套用設定檔
-	5. inode：檔案記憶體位置
-	6. In -s：為檔案、目錄新增連結
+	1. alias：設定別名
+	2. unalias：移除別名
+	3. source：手動套用設定檔
+	4. inode：檔案記憶體位置
+	5. In -s：為檔案、目錄新增連結
