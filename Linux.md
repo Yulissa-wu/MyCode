@@ -138,7 +138,7 @@
 ---
 
      <<套件>>
-        1. rpm -i File_Name.rpm：以rpm安裝檔案裝套件
+    1. rpm -i File_Name.rpm：以rpm安裝檔案裝套件
 	2. rpm -e <套件名稱>：移除套件
 	3. rpm -U File_Name.rpm：以rpm安裝檔更新套件
 	4. rpm -q <套件名稱>：查詢套件是否安裝
@@ -146,7 +146,7 @@
 ---
 
      <<套件>>
-        1. apt-get install <套件名稱>：下載套件
+    1. apt-get install <套件名稱>：下載套件
 	2. apt-get remove <套件名稱>：移除套件
 	3. apt-get clean：清除安裝套件時下載的暫存檔案
 	3. apt-get update <套件名稱>：更新套件
