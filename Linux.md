@@ -213,6 +213,9 @@
 	1. wget <主機名稱>：抓取該網站
 	2. wget -m <主機名稱>：鏡像抓取整個網站
 	3. wget -r -A "*.副檔名" <主機名稱>：抓取該網站指定副檔名的檔案
+	4. sftp username@IP：get(下載)、put、exit
+	5. scp username@IP:遠端檔案路徑 local路徑：下載遠端檔案到local路徑
+	6. scp <檔案名稱> username@IP:遠端路徑：上傳檔案到遠端路徑
 
 ---
 
