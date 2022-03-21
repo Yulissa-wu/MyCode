@@ -3,10 +3,11 @@ import pymysql.cursors
 import csv
 
 
-conn = pymysql.connect(host=db1.host, port=db1.port, user=db1.user, passwd=db1.passwd, db=db1.db, charset=db1.charset)  # 與資料庫進行連線
-with conn.cursor() as cursor:  # 開啟游標並取別名
-    sql=f'SQL語法'
-    cursor.execute(sql)  # 提取指令進cursor，並執行
+def AAA():
+   conn = pymysql.connect(host=db1.host, port=db1.port, user=db1.user, passwd=db1.passwd, db=db1.db, charset=db1.charset)  # 與資料庫進行連線
+   with conn.cursor() as cursor:  # 開啟游標並取別名
+       sql=f'SQL語法'
+       cursor.execute(sql)  # 提取指令進cursor，並執行
 
 fetch = cursor.fetchall() 
 for row in fetch:
@@ -22,5 +23,6 @@ for row in fetch:
     cursor.close()
     conn.close()
 
+AAA()
 
 
