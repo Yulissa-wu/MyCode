@@ -119,9 +119,10 @@
 ---
 
     <<群組>>
-	1. groupadd：新增群組
-	2. groupmod：修改群組
-	3. groupdel：移除群組
+	1. groupadd <群組名稱>：新增群組
+	2. groupmod -n <新群組名稱> <群組名稱>：修改群組名稱
+	3. groupmod -g <GID> <群組名稱>：修改群組GID
+	3. groupdel <群組名稱>：移除群組
 
 ---
 
