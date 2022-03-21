@@ -126,6 +126,24 @@
 
 ---
 
+　　 <<套件>>
+        1. yum install <套件名稱>：安裝套件
+	2. yum remove <套件名稱>：移除套件
+	3. yum clear：清除安裝套件時下載的暫存檔案
+	4. yum update <套件名稱>：更新套件
+	5. yum list：查看下載的套件一覽
+	6. yum search <關鍵字>：以關鍵字搜尋套件
+	7. yum info <套件名稱>：以套件名稱查詢套件相關資訊
+	
+---
+
+     <<套件>>
+        1. rpm -i File_Name.rpm：以rpm安裝檔案裝套件
+	2. rpm -e <套件名稱>：移除套件
+	3. rpm -U File_Name.rpm：以rpm安裝檔更新套件
+	4. rpm -q <套件名稱>：查詢套件是否安裝
+	
+---
 	1. pstree：以樹狀結構檢視程序
 	2. ps：檢視系統中有哪些程序正在執行
 	3. top：動態觀察程序的變化
