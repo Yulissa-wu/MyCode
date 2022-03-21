@@ -11,7 +11,7 @@
 <img src="https://user-images.githubusercontent.com/97188330/157582359-b9448838-311c-4069-99db-2889381cd738.jpg" width="500" height="350" alt="MySQL"/><br/>
 <h1>MQTT</h1>
 
-    <<Server(LocalComputer、VM) MQTT Broker>>
+    <<Server(VM) MQTT Broker>>
           1. 登入 console.cloud.google.com
           2. 建立並切換至新專案
           3. 啟用 Compute Engine
