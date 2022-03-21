@@ -127,7 +127,7 @@
 ---
 
 	<<套件>>
-   　　1. yum install <套件名稱>：安裝套件
+	1. yum install <套件名稱>：安裝套件
 	2. yum remove <套件名稱>：移除套件
 	3. yum clear：清除安裝套件時下載的暫存檔案
 	4. yum update <套件名稱>：更新套件
