@@ -30,7 +30,7 @@
           10. (optional) DNS 指向外部 IP 位址 (mqttip)
           11. SSH 連線 GCE VM 執行個體 mqtt
           12. sudo apt-get update; sudo apt-get install -y mosquito; sudo timedatectl set-timezone Asia/Taipei
-                                MQTT Subscriber
+    Server(LocalComputer、VM) MQTT Subscriber
           1. pip install paho-mqtt
           2. import paho.mqtt.client as mqtt
              def on_connect(client, userdata, flags, rc):
