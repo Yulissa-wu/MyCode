@@ -194,7 +194,7 @@
 ---
 
     <<網路>>
-        1. hostname：顯示主機名稱(域名)
+    1. hostname：顯示主機名稱(域名)
 	2. /etc/resolv.conf：DNS(透過主機名稱來找到該伺服器的IP)設定檔
 	3. /etc/hostname（系統主機名稱）、/etc/host（遠端主機名稱、IP）、/etc/host.allow（白名單）、/etc/host.deny（黑名單）
 	4. host <主機名稱/IP>：查詢主機名稱/IP位置的對應
