@@ -154,7 +154,7 @@
 	
 ---
 
-　　　<<套件>>
+	<<套件>>
 	1. dpkg -i File_Name.deb：需自行下載安裝檔
 	2. dpkg --info File_Name.deb：查詢安裝黨詳細資訊
 	3. dpkg --list：查看下載的套件一覽
@@ -175,6 +175,7 @@
 	10. bg %[job_number]：將程序切換至背景執行
 
 ---
+
      <<工作排程>>
 	1. at：一次性的工作排程
 	2. atq：查看工作排程
@@ -191,6 +192,7 @@
 	1. systemctl <動作> <服務名稱>：管理系統服務運行，動作可以是stop、start、restart(三者都須root權限)、status(不需root權限)
 
 ---
+
      <<網路>>
         1. hostname：顯示主機名稱(域名)
 	2. /etc/resolv.conf：DNS(透過主機名稱來找到該伺服器的IP)設定檔
