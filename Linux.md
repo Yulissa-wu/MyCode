@@ -126,7 +126,7 @@
 
 ---
 
-　　　　　<<套件>>
+　　　<<套件>>
         1. yum install <套件名稱>：安裝套件
 	2. yum remove <套件名稱>：移除套件
 	3. yum clear：清除安裝套件時下載的暫存檔案
@@ -159,40 +159,58 @@
 	2. dpkg --info File_Name.deb：查詢安裝黨詳細資訊
 	3. dpkg --list：查看下載的套件一覽
 	4. dpkg -r <套件名稱>：移除套件
-
+	
 ---
+
+     <<程序>>
 	1. pstree：以樹狀結構檢視程序
-	2. ps：檢視系統中有哪些程序正在執行
+	2. ps：列出bash中的程序，-l顯示程序詳細資訊
 	3. top：動態觀察程序的變化
 	4. kill：終止程序
 	5. killall：依名稱終止程序
 	6. pkill：依部分名稱終止程序
 	7. xkill：強制終止視窗程序
+	8. jobs：查詢背景程序status，前方出現[1][2][3]即可使用fg與bg%1、2、3
+	9. fg %[job_number]：將程序切換至前景執行
+	10. bg %[job_number]：將程序切換至背景執行
 
 ---
-
-	1. jobs：查詢背景程序
-	2. fg：將程序切換至前景執行
-	3. bg：將程序切換至背景執行
-
----
-
+     <<工作排程>>
 	1. at：一次性的工作排程
-	2. crontab：循環性的工作排程
+	2. atq：查看工作排程
+	3. atrm <job_number> ：刪除工作排程
+	4. crontab -e：編輯工作排程，*/5 * * * * <要執行的動作>，也可將排程刪除
+	5. crontab -l：檢視工作排程一覽
+	6. crontab -r：刪除所有的工作排程
+	7. /etc/crontab：root層級的工作排程
+	8. /etc/cron.daily(每日執行，未執行過開機5分鐘後執行)、/etc/cron.weekly(每週執行，未執行過開機25分鐘後執行)、/etc/monthly(每月執行，未執行過開機45分鐘後執行)
+	9. /etc/crn.allow(白名單)、/etc/cron.deny(黑名單)：預設所有帳號都可以使用crontab
+	
+---
+
+	1. systemctl <動作> <服務名稱>：管理系統服務運行，動作可以是stop、start、restart(三者都須root權限)、status(不需root權限)
+
+---
+     <<網路>>
+        1. hostname：顯示主機名稱(域名)
+	2. /etc/resolv.conf：DNS(透過主機名稱來找到該伺服器的IP)設定檔
+	3. /etc/hostname（系統主機名稱）、/etc/host（遠端主機名稱、IP）、/etc/host.allow（白名單）、/etc/host.deny（黑名單）
+	4. host <主機名稱/IP>：查詢主機名稱/IP位置的對應
+	5. ifconfig：檢視網路介面卡的狀態
+	6. ifconfig <網路卡介面> <動作>：網路卡介面使用ifconfig查詢，動作可以是up、down
+	7. ifconfig <網路卡介面> <IP> netmask <遮罩>：設定網路卡介面的IP、子網路遮罩
+	8. nmtui：設定網路卡介面
+	9. ping <主機名稱/IP>：顯示連線是否建立
+	10. traceroute <主機名稱/IP>：顯示封包歷程
+	11. netstat：檢視本機的網路連線狀況，-a可以顯示所有網路連接埠
+	12. ssh-keygen：產生Key-Pair
+	13. ssh-copy-id username@IP：將公鑰傳到server，即可免密碼登入Server
 
 ---
 
-	1. systemctl 動作 服務名稱：管理系統服務運行
-
----
-
-	1. ping：顯示連線是否建立
-	2. traceroute：顯示封包歷程
-	3. netstat：檢視本機的網路連線狀況
-
----
-
-	1. wget：檔案下載工具
+	1. wget <主機名稱>：抓取該網站
+	2. wget -m <主機名稱>：鏡像抓取整個網站
+	3. wget -r -A "*.副檔名" <主機名稱>：抓取該網站指定副檔名的檔案
 
 ---
 
