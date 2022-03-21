@@ -144,6 +144,23 @@
 	4. rpm -q <套件名稱>：查詢套件是否安裝
 	
 ---
+
+     <<套件>>
+        1. apt-get install <套件名稱>：下載套件
+	2. apt-get remove <套件名稱>：移除套件
+	3. apt-get clean：清除安裝套件時下載的暫存檔案
+	3. apt-get update <套件名稱>：更新套件
+	4. apt-cache search <關鍵字>：以關鍵字搜尋套件
+	
+---
+
+　　　<<套件>>
+	1. dpkg -i File_Name.deb：需自行下載安裝檔
+	2. dpkg --info File_Name.deb：查詢安裝黨詳細資訊
+	3. dpkg --list：查看下載的套件一覽
+	4. dpkg -r <套件名稱>：移除套件
+
+---
 	1. pstree：以樹狀結構檢視程序
 	2. ps：檢視系統中有哪些程序正在執行
 	3. top：動態觀察程序的變化
