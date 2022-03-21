@@ -137,7 +137,7 @@
 
 ---
 
-     <<套件>>
+    <<套件>>
     1. rpm -i File_Name.rpm：以rpm安裝檔案裝套件
 	2. rpm -e <套件名稱>：移除套件
 	3. rpm -U File_Name.rpm：以rpm安裝檔更新套件
@@ -145,7 +145,7 @@
 	
 ---
 
-     <<套件>>
+    <<套件>>
     1. apt-get install <套件名稱>：下載套件
 	2. apt-get remove <套件名稱>：移除套件
 	3. apt-get clean：清除安裝套件時下載的暫存檔案
@@ -176,7 +176,7 @@
 
 ---
 
-     <<工作排程>>
+    <<工作排程>>
 	1. at：一次性的工作排程
 	2. atq：查看工作排程
 	3. atrm <job_number> ：刪除工作排程
@@ -193,7 +193,7 @@
 
 ---
 
-     <<網路>>
+    <<網路>>
         1. hostname：顯示主機名稱(域名)
 	2. /etc/resolv.conf：DNS(透過主機名稱來找到該伺服器的IP)設定檔
 	3. /etc/hostname（系統主機名稱）、/etc/host（遠端主機名稱、IP）、/etc/host.allow（白名單）、/etc/host.deny（黑名單）
