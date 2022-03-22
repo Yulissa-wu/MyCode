@@ -32,8 +32,10 @@
     heroku git:remote -a Heroku_App_Name
     
     修改config.ini：
-    [ linebot ]
+    [line-bot]
     channel_access_token = Your_Channel_access_token
     channel_secret = Your_Channel_Secret
-    
+    cd <目錄>
+    pip3 install -r requirement.txt
+    python3 <要執行的檔案>
     
