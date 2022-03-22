@@ -14,6 +14,5 @@
  
 <img src="https://user-images.githubusercontent.com/97188330/159395429-e185d72f-2a50-4ea6-b8e7-fde055a62f83.png" width="600" height="440" alt="MySQL"/><br/>
 git checkout -b masterbranch
-然後使用
-
 git push heroku masterbranch
+https://<Heroku app 名>.herokuapp.com
