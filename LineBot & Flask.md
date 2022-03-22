@@ -42,6 +42,6 @@
 <h1>Flask</h1>
 
     webhook
-<img src="https://user-images.githubusercontent.com/97188330/159490793-8a498af3-8cc7-4b5e-895d-7eb4ec3e74a3.png" width="700" height="500" alt="MySQL"/><br/>
+<img src="https://user-images.githubusercontent.com/97188330/159490793-8a498af3-8cc7-4b5e-895d-7eb4ec3e74a3.png" width="700" height="300" alt="MySQL"/><br/>
     
 此聊天機器人 app 需要一個 channel access token 以進行 API call，以及一個 webhook URL 以接收來自 LINE Platform 的 webhook payload。
