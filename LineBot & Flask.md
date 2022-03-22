@@ -32,6 +32,7 @@
     heroku git:remote -a Heroku_App_Name
     
     修改config.ini：
+    [ ]
     channel_access_token = Your_Channel_access_token
     channel_secret = Your_Channel_Secret
     
