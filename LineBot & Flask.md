@@ -18,3 +18,21 @@
     <<Messaging API分頁>>
     1.Webhook URL
     2.Channel access token
+
+<h1>Heroku</h1>
+
+    Term of Service->Accept
+    New -> Create New App
+    Deploy using Heroku Git -> Heroku CLI -> Install Heroku CLI
+    開啟power shell -> 輸入heroku
+    Setting -> Buildpacks -> Add buildpack -> Python
+    
+    heroku login
+    git init
+    heroku git:remote -a Heroku_App_Name
+    
+    修改config.ini：
+    channel_access_token = Your_Channel_access_token
+    channel_secret = Your_Channel_Secret
+    
+    
