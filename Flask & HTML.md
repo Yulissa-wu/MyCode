@@ -12,5 +12,5 @@
         if __name__ == "__main__":
             app.run(debug=True, host="0.0.0.0", port=5001)  # 使用TCP、UDP連線
  
-<img src="https://user-images.githubusercontent.com/97188330/159395429-e185d72f-2a50-4ea6-b8e7-fde055a62f83.png" width="800" height="800" alt="MySQL"/><br/>
+<img src="https://user-images.githubusercontent.com/97188330/159395429-e185d72f-2a50-4ea6-b8e7-fde055a62f83.png" width="800" height="500" alt="MySQL"/><br/>
 
