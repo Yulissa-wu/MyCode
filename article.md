@@ -1,3 +1,3 @@
-<h2>about programming language..</h1>
+<h2>About programming language..</h1>
 
     okay
