@@ -11,6 +11,8 @@
 
 <h2>About language..</h1>
 
+`English`
+`japanese`
 
 
 <h2>About design..</h1>
