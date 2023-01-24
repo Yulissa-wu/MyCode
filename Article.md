@@ -17,7 +17,8 @@
 <br>
 `ngrok`
 <a href="https://ithelp.ithome.com.tw/articles/10197345">ngrok</a>
-
+`Hadoop`
+<a href="https://www.tableau.com/zh-tw/learn/articles/big-data-hadoop-explained">Hadoop</a>
 
 <h2>About language..</h1>
 
