@@ -1,7 +1,7 @@
 <h2>About programming language..</h1>
 
 `All`
-I. <a href="https://hackmd.io/@greta/ByVDgXhsS">History</a>II. <a href="https://hackmd.io/@greta/ByVDgXhsS](https://www.yourator.co/articles/283#mobile">Work</a>
+*. <a href="https://hackmd.io/@greta/ByVDgXhsS">History</a>*. <a href="https://hackmd.io/@greta/ByVDgXhsS](https://www.yourator.co/articles/283#mobile">Work</a>
 <br>
 
 `C++`
