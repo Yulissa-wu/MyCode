@@ -16,7 +16,7 @@
 
 `English`
 <br>
-`japanese`
+`Japanese`
 
 
 <h2>About design..</h1>
