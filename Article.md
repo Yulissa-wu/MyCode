@@ -24,7 +24,8 @@
 <br>
 `UX`
 <br>
-`Illustrator``Photoshop`
+`Illustrator`
+`Photoshop`
 <a href="https://hackmd.io/@greta/ByVDgXhsS](https://www.yourator.co/articles/283#mobile">PSvsAI</a>
 <br>
 
