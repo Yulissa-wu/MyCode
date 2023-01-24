@@ -31,7 +31,7 @@
 <br>
 `Illustrator`
 `Photoshop`
-<a href="https://hackmd.io/@greta/ByVDgXhsS](https://www.yourator.co/articles/283#mobile">PSvsAI</a>
+<a href="https://winnovation.com.tw/winnovation/index.php?page=product_shop3&p_id=136254">PSvsAI</a>
 <br>
 
 <h2>About Other..</h1>
