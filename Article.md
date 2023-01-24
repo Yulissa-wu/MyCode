@@ -36,7 +36,7 @@
 <br>
 `Illustrator`
 `Photoshop`
-<a href="https://winnovation.com.tw/winnovation/index.php?page=product_shop3&p_id=136254">PSvsAI</a>
+<a href="https://winnovation.com.tw/winnovation/index.php?page=product_shop3&p_id=136254">AIvsPS</a>
 <br>
 
 <h2>About Other..</h1>
