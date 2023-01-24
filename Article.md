@@ -14,6 +14,9 @@
 <br>
 `API`
 <a href="https://www.da-vinci.com.tw/tw/blog/api#nav-item-3">API</a>
+<br>
+`ngrok`
+https://ithelp.ithome.com.tw/articles/10197345
 
 
 <h2>About language..</h1>
