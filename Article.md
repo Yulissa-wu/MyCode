@@ -21,6 +21,9 @@
 
 <h2>About design..</h1>
 
+`UI`
+<br>
+`UX`
 
 <h2>About Other..</h1>
 
