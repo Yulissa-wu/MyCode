@@ -12,7 +12,7 @@
 `Python`
 <br>
 `API`
-<a href="https://www.da-vinci.com.tw/tw/blog/api#nav-item-3">Work</a>
+<a href="https://www.da-vinci.com.tw/tw/blog/api#nav-item-3">API</a>
 
 
 <h2>About language..</h1>
