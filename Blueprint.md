@@ -1,7 +1,7 @@
 
 <h1>架構</h1>
 
-* Monolithic單體式系統架構
+* Monolithic Server單體式系統架構
 
       將資料庫與快取置於同一個伺服器內
       
