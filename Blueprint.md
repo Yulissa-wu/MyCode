@@ -5,7 +5,7 @@
 
       將資料庫與快取置於同一個伺服器內
       
-<img src="https://user-images.githubusercontent.com/97188330/215185403-c19497af-9376-4241-9f13-5c1e0e7f24a0.png" width="1000" height="480" alt="MySQL"/><br/>      
+<img src="https://user-images.githubusercontent.com/97188330/215190686-dbd0c2a5-bb45-48fc-b90f-5421efc4cbf7.png" width="1000" height="480" alt="MySQL"/><br/>      
     
 * Microservice微服務
 
