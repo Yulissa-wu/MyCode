@@ -35,6 +35,14 @@
       SSL憑證避免請求被竊聽/竄改(進反向代理前HTTPS->進反向代理後HTTP)
       根據不同網址決定對應哪些服務(API伺服器、Web伺服器、靜態網頁)
       
+* APIserver
+ 
+      Heroku
+      
+* Webserver
+
+      NGINX
+      
 * 快取(Cache)
 
       用於存放不常變動且產生成本較高的資料
