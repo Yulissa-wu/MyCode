@@ -1,0 +1,88 @@
+# RECT參數(left, top), (right, bottom)
+
+#video part
+
+import glob
+import os
+import cv2
+
+
+path = 'C:/'
+cap = cv2.VideoCapture(path)  # 開啟影片檔案
+
+path2 = 'C:/'
+cap2 = cv2.VideoCapture(path2)
+
+
+w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))  # 取得畫面寬度
+
+h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))  # 取得畫面高度
+
+fps = cap.get(cv2.CAP_PROP_FPS)  # 取得影片FPS
+
+fourcc = cv2.VideoWriter_fourcc(*'XVID')  # 使用 XVID 編碼(MPEG-4)
+
+out = cv2.VideoWriter('./.mp4', fourcc, fps, (w, h))
+RECT = ((200, 0), (1150, 350)) 
+(left, top), (right, bottom) = RECT
+ret, bg_frame = cap2.read()
+cap2.release()
+while cap.isOpened():  # 以迴圈從影片檔案讀取影格，並顯示出來
+    ret, frame = cap.read()
+    print('')
+    if not ret:
+        break
+    frame2 = bg_frame.copy()
+    roi = frame[top:bottom, left:right]
+
+    frame2[top:bottom, left:right] = roi
+
+    out.write(frame2)  # 寫入影格
+out.release()
+
+
+
+#pic part
+
+import glob
+import os
+import cv2
+
+list = []
+path=glob.iglob(r'C:/')
+
+for jpg in path:
+
+    list.append(jpg)
+for i in range(0, 47):
+    cap = cv2.imread(list[i])  # 開啟圖片檔案
+    print(list[i])
+    path2 = 'C:/'
+
+    cap2 = cv2.imread(path2)  # 開啟圖片檔案
+    size = cap.shape
+    w = size[1]
+    h = size[0]
+
+    # RECT = ((0, 0), (1280, 720))
+    # RECT = ((200, 0), (1050, 305))
+    # RECT = ((210, 0), (1550, 450)) # C5
+    # RECT = ((210, 100), (1550, 650)) #C4
+    RECT = ((210, 100), (1550, 500)) # C1
+    # RECT = ((320, 100), (1550, 500)) # C2、C3
+    # RECT = ((520, 100), (1650, 500)) # C6
+    (left, top), (right, bottom) = RECT
+
+    roi = cap[top:bottom, left:right]
+
+    cap2[top:bottom, left:right] = roi
+
+
+    A = 'C:/' + list[i] + '.jpg'
+    print(A)
+
+    cv2.imwrite(A , cap2)
+
+
+
+
