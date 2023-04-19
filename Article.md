@@ -4,10 +4,10 @@
 <a href="https://hackmd.io/@greta/ByVDgXhsS">History</a>
 <br>
 `All`
-<a href="https://hackmd.io/@greta/ByVDgXhsS](https://www.yourator.co/articles/283#mobile">Work</a>
+<a href="https://medium.com/erens-tech-book/%E7%90%86%E8%A7%A3-process-thread-94a40721b492">Program&Process&Thread</a>
 <br>
 `All`
-<a href="https://medium.com/erens-tech-book/%E7%90%86%E8%A7%A3-process-thread-94a40721b492">Program&Process&Thread</a>
+<a href="https://hackmd.io/@greta/ByVDgXhsS](https://www.yourator.co/articles/283#mobile"></a>
 <br>
 `C++`
 <br>
@@ -20,6 +20,9 @@
 <br>
 `ngrok`
 <a href="https://ithelp.ithome.com.tw/articles/10197345">ngrok</a>
+<br>
+`uwsgi`
+<a href="https://www.maxlist.xyz/2020/06/20/flask-uwsgi">uwsgi</a>
 <br>
 `Hadoop`
 <a href="https://www.tableau.com/zh-tw/learn/articles/big-data-hadoop-explained">Hadoop</a>
