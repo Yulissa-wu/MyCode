@@ -1,0 +1,49 @@
+import xml.etree.ElementTree as ET
+
+xmax = None
+xmin = None
+ymax = None
+ymin = None
+for i in range(150, 151):
+    M3 = f'./DSC_{i:04d}.xml'
+    M4 = str(M3)
+    tree = ET.parse(M4)
+    root = tree.getroot()
+    filename = root[1].text
+    for o in root.iter('object'):
+
+        for o2 in neighbor.iter('bndbox'):
+
+            # print(o2.tag)
+            for neighbor3 in neighbor2.iter('xmin'):
+                n3 = o3
+                xmin = int(n3.text)
+                print(neighbor3.text)
+            for neighbor4 in neighbor2.iter('ymin'):
+                n4 = o4
+                ymin = int(n4.text)
+                print(neighbor4.text)
+            for neighbor5 in neighbor2.iter('xmax'):
+                n5 = o5
+                xmax = int(n5.text)
+                print(neighbor5.text)
+            for neighbor6 in neighbor2.iter('ymax'):
+                n6 = o6
+                print(neighbor6.text)
+                ymax = int(n6.text)
+
+        w = int(xmax) - int(xmin)
+        h = int(ymax) - int(ymin)
+        print('w', w)
+        print('h', h)
+        print('filename', filename)
+        v = str(filename) + ',' + str(w) + '(w)' + 'x' + str(h) + '(h)\n'
+        with open('.csv', 'a') as R:
+            R.writelines(v)
+
+
+        xmax = None
+        xmin = None
+        ymax = None
+        ymin = None
+        count = 0
