@@ -81,7 +81,7 @@
       -Publisher 會向 Broker 發布 ( Publish ) 特定的主題 ( Topic )
       -Broker 會判斷 Publisher 所發布的特定 Topic 是否有 Subscriber 訂閱此特定 Topic，如有的話會將此特定 Topic 的訊息傳送給 Subscriber
       
-      >>會用到的技術/硬體設施有：微型電腦(NVIDIA Jetson Nano、Raspberry Pi)Broker
+      >>會用到的技術/硬體設施有：微型電腦(NVIDIA Jetson Nano、Raspberry Pi)、Broker(Mosquitto、VerneMQ)
 
 * Queue
 
