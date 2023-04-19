@@ -1,0 +1,28 @@
+import json
+import redis
+import requests
+
+
+if __name__ == '__main__':
+    with open("./f.json") as c:
+        a = json.load(c)
+        ip = a['ip']  # '192.168.1.234'
+        name = a['name'] # 推論名字
+        alert = a['alert']  # 'http://192.168.1.70/api/control?alert=100002'
+        clear = a['clear']  # 'http://192.168.1.70/api/control?clear=1'
+    while True:
+        r = redis.Redis(host=ip, port=63790, db=0, health_check_interval=30)
+        sub = r.pubsub()
+        sub.subscribe(name)
+        print("--Redis Connected!--")
+        for message in sub.listen():
+            if message['data'] != 1:
+                message_list = message['data'].decode('utf-8')
+                j = json.loads(message_list)
+                message_dict = j[0]['n_negative']
+                if message_dict > 0:
+                    r = requests.get(alert)
+                    print(r.status_code, 1)
+                if message_dict == 0:
+                    r = requests.get(clear)
+                    print(r.status_code, 2)
