@@ -26,3 +26,12 @@ if __name__ == '__main__':
                 if message_dict == 0:
                     r = requests.get(clear)
                     print(r.status_code, 2)
+
+# config帶參數
+
+{
+"ip": "",
+"name": "",
+"alert": "API",
+"clear": "API"
+}
