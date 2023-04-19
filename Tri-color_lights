@@ -6,10 +6,10 @@ import requests
 if __name__ == '__main__':
     with open("./f.json") as c:
         a = json.load(c)
-        ip = a['ip']  # '192.168.1.234'
+        ip = a['ip']  
         name = a['name'] # 推論名字
-        alert = a['alert']  # 'http://192.168.1.70/api/control?alert=100002'
-        clear = a['clear']  # 'http://192.168.1.70/api/control?clear=1'
+        alert = a['alert']  
+        clear = a['clear']  
     while True:
         r = redis.Redis(host=ip, port=63790, db=0, health_check_interval=30)
         sub = r.pubsub()
