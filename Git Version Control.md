@@ -57,5 +57,5 @@
           Master：現在的main，不會對此分支進行commit，用來放穩定、可上線的版本
           Release：用來做上線最後測試，測試完會合併到main、Develop
           Hotfix：線上版本出現緊急問題在main分支另開分支修復後，再合併回main、Develop
-<img src="https://user-images.githubusercontent.com/97188330/156694877-9fc82c86-82c0-49d2-9bca-37e2610381e2.png" width="1000" height="330" alt="MySQL"/><br/>
+<img src="https://user-images.githubusercontent.com/97188330/156694877-9fc82c86-82c0-49d2-9bca-37e2610381e2.png" width="1000" height="380" alt="MySQL"/><br/>
 
