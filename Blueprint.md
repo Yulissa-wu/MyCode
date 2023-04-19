@@ -76,11 +76,16 @@
 
       AIOT可以應用在多個領域，例如智慧城市、智慧家居、智慧農業、智慧醫療、智慧交通等，實現更加智能化和高效的管理和服務。
       例如，在智慧城市領域，AIOT可以實現智能交通、智能路燈、智能垃圾分類等應用；在智慧家居領域，AIOT可以實現智能門鎖、智能家電、智能監控等應用。
+      
+      -Subscriber 會向 Broker 訂閱 ( Subscribe ) 特定的主題 ( Topic )
+      -Publisher 會向 Broker 發布 ( Publish ) 特定的主題 ( Topic )
+      -Broker 會判斷 Publisher 所發布的特定 Topic 是否有 Subscriber 訂閱此特定 Topic，如有的話會將此特定 Topic 的訊息傳送給 Subscriber
+      
       >>會用到的技術/硬體設施有：微型電腦(NVIDIA Jetson Nano、Raspberry Pi)Broker
 
 * Queue
 
-      排程
+      Queue的特點是“先進先出”，即先進入Queue的數據先被取出，後進入Queue的數據後被取出。
       >>會用到的技術有：
       
 <h1>相關資料</h1>
