@@ -18,18 +18,18 @@ for i in range(150, 151):
             for neighbor3 in neighbor2.iter('xmin'):
                 n3 = o3
                 xmin = int(n3.text)
-                print(neighbor3.text)
+                print(o3.text)
             for neighbor4 in neighbor2.iter('ymin'):
                 n4 = o4
                 ymin = int(n4.text)
-                print(neighbor4.text)
+                print(o4.text)
             for neighbor5 in neighbor2.iter('xmax'):
                 n5 = o5
                 xmax = int(n5.text)
-                print(neighbor5.text)
+                print(o5.text)
             for neighbor6 in neighbor2.iter('ymax'):
                 n6 = o6
-                print(neighbor6.text)
+                print(o6.text)
                 ymax = int(n6.text)
 
         w = int(xmax) - int(xmin)
