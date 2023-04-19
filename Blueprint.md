@@ -43,11 +43,11 @@
       
 * APIserver
  
-      >>會用到的技術有：Django、F
+      >>會用到的技術有：Django、Flask
       
 * Webserver
 
-      >>會用到的技術有：
+      >>會用到的技術有：Nginx
       
 * 快取(Cache)
 
