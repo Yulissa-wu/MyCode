@@ -1,0 +1,16 @@
+import cv2
+
+for i in range(1,72):
+    img = cv2.imread('.jpg')
+    h, w = img.shape[:2]
+
+    ag = (i*5)
+    fsize = 1
+
+    M1 = cv2.getRotationMatrix2D((w / 2, h / 2), ag, fsize)
+    img2 = cv2.warpAffine(img, M1, (w,h))
+    M2 = int(i*5)
+    M3 = 'train20220615102518000001___' + str(M2) + '.jpg'
+    M4 = str(M3)
+    out = cv2.imwrite(M4, img2)
+    print(i)
