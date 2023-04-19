@@ -20,26 +20,26 @@
 * CSR - Client-Side Rendering（客戶端渲染）
 
       較適合靜態網頁，渲染(將程式碼轉換為可視的圖像或畫面的過程)。時依照客戶端環境取決速度
-      >>會用到的技術有：
+      >>會用到的技術有：HTML、CSS、JavaScript
         
 * SSR - Server-Side Rendering（伺服器端渲染）
 
       較適合動態網頁，渲染時透過伺服器獲取資料，依照伺服器處理速度來取決速度
-      >>會用到的技術有：
+      >>會用到的技術有：HTML、CSS、JavaScript、Django、AJAX、MySQL、Nginx、Java
       
 <h1>後端</h1>
 
 * 網域名稱系統(DNS)
 
-      將網址轉為IP、防止DDos攻擊、快取機制
-      >>會用到的技術有：
+      將網址轉為IP、防止DDos攻擊
+      >>會用到的技術有：Cloudflare DNS、Verisign DNS
       
 * 反向代理(Reverse proxy)
 
       可以做到附載平衡load balancing(處理大量請求，決定哪些請求接收/不接收，如果同一個API短時間一直發送請求的阻擋)
       SSL憑證避免請求被竊聽/竄改(進反向代理前HTTPS->進反向代理後HTTP)
-      根據不同網址決定對應哪些服務(API伺服器、Web伺服器、靜態網頁)
-      >>會用到的技術有：
+      根據不同網址決定對應哪些服務
+      >>會用到的技術有：ngrok
       
 * APIserver
  
