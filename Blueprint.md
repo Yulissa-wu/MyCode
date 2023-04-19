@@ -67,8 +67,9 @@
       
       通用AI運算引擎可以處理多種類型的AI任務，比如圖像識別、自然語言處理、聲音識別等。常見的通用AI運算引擎有TensorFlow、PyTorch、Caffe等。
       
-      特定AI運算引擎則專門處理某種類型的AI任務，比如語音識別、影像處理、物體追蹤等。這些特定AI運算引擎通常具有更高的效能和更低的延遲，能夠實現更高的實時性。
-      常見的特定AI運算引擎有OpenCV、Kaldi、MXNet等。
+      特定AI運算引擎則專門處理某種類型的AI任務，比如語音識別、影像處理、物體追蹤等。這些特定AI運算引擎通常具有更高的效能和更低的延遲，
+      能夠實現更高的實時性。常見的特定AI運算引擎有OpenCV、Kaldi、MXNet等。
+      
       >>會用到的技術有：TensorFlow、PyTorch、Caffe、OpenCV、Kaldi、MXNet
       
 * AIOT
