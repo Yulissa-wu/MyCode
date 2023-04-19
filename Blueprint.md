@@ -43,7 +43,7 @@
       
 * APIserver
  
-      >>會用到的技術有：
+      >>會用到的技術有：Django、F
       
 * Webserver
 
