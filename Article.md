@@ -7,7 +7,7 @@
 <a href="https://medium.com/erens-tech-book/%E7%90%86%E8%A7%A3-process-thread-94a40721b492">Program&Process&Thread</a>
 <br>
 `All`
-<a href="https://hackmd.io/@greta/ByVDgXhsS](https://www.yourator.co/articles/283#mobile"></a>
+<a href="">Computer config</a>
 <br>
 `C++`
 <br>
@@ -52,4 +52,4 @@
 <br>
 `GitHub`
 <a href="https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">GitHub Style</a>
-Computer config
+
