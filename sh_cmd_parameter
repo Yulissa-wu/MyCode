@@ -1,1 +1,13 @@
+#.sh
+# $1為之後執行此檔案時所需的帶入順序為1
 
+ex:
+>ffmpeg -i $1.mp4 -vcodec libx264 $1_h264.mp4
+>./.sh 參數1 參數2
+
+#.cmd
+# %1為之後執行此檔案時所需的帶入順序為1
+
+ex:
+>ffmpeg -i $1.mp4 -vcodec libx264 $1_h264.mp4
+>.cmd "參數1" "參數2"
