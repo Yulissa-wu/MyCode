@@ -30,7 +30,7 @@
 * 網域名稱系統(DNS)
 
       將網址轉為IP、防止DDos攻擊、快取機制
-      >>會用到的技術有：ngrok
+      >>會用到的技術有：
       
 * 反向代理(Reverse proxy)
 
@@ -41,11 +41,11 @@
       
 * APIserver
  
-      >>會用到的技術有：Heroku-ClearDB
+      >>會用到的技術有：
       
 * Webserver
 
-      >>會用到的技術有：NGINX
+      >>會用到的技術有：
       
 * 快取(Cache)
 
