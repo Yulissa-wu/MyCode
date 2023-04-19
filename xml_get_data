@@ -15,19 +15,19 @@ for i in range(150, 151):
         for o2 in neighbor.iter('bndbox'):
 
             # print(o2.tag)
-            for neighbor3 in neighbor2.iter('xmin'):
+            for o3 in o2.iter('xmin'):
                 n3 = o3
                 xmin = int(n3.text)
                 print(o3.text)
-            for neighbor4 in neighbor2.iter('ymin'):
+            for o4 in o2.iter('ymin'):
                 n4 = o4
                 ymin = int(n4.text)
                 print(o4.text)
-            for neighbor5 in neighbor2.iter('xmax'):
+            for o5 in o2.iter('xmax'):
                 n5 = o5
                 xmax = int(n5.text)
                 print(o5.text)
-            for neighbor6 in neighbor2.iter('ymax'):
+            for o6 in o2.iter('ymax'):
                 n6 = o6
                 print(o6.text)
                 ymax = int(n6.text)
