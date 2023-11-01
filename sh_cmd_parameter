@@ -2,6 +2,7 @@
 # $1為之後執行此檔案時所需的帶入順序為1
 
 ex:
+>#!bin/sh
 >ffmpeg -i $1.mp4 -vcodec libx264 $1_h264.mp4
 >./.sh 參數1 參數2
 
