@@ -26,4 +26,9 @@ h{
 
 樣式：
 font-size:?px;文字大小
+font-family:字型名稱;
+line-height:行距大小;
+text-align: center;文字置中
+text-align: right;文字置右
+text-align: left;文字置左
 
