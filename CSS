@@ -1,0 +1,28 @@
+HTML 下屬性class=class名稱
+
+CSS
+
+CSS Reset
+https://meyerweb.com/eric/tools/css/reset/
+
+標籤選擇器：
+h{
+中間輸入樣式
+}
+
+擬態選擇器：
+標籤:hover{
+中間輸入樣式
+}
+
+類別選擇器：
+.class名稱 .class名稱{
+中間輸入樣式
+}
+
+.class名稱 標籤{
+中間輸入樣式
+}
+
+font-size:?px;文字大小
+
