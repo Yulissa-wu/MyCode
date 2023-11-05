@@ -39,3 +39,16 @@ height:?px;高
 display:block;轉換為區塊元素
 display:inline;轉換為行內元素
 font-weight: bold;粗體
+
+border:px 樣式 顏色     在文字或圖片的上下左右加入線
+border
+border-left
+border-right
+border-bottom
+border-top
+樣式:
+solid實心線
+dashed虛線
+dotted點組成的虛線
+
+
