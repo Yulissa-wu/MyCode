@@ -63,3 +63,5 @@ padding-top
 padding-bottom
 padding-left
 padding-right
+
+box-sizing: border-box; 加了後，所有的大小就依照設定的寬度，border、padding在寬度內
