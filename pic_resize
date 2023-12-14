@@ -1,33 +1,12 @@
 import math
 from PIL import Image, ImageFont, ImageDraw
-# A = tuple(input('width?'))
-# B = tuple(input('height?'))
-# ,fontType=r'C:\Windows\Fonts\simsun.ttc',fontRGB=[0,0,0]
+
 def CreatePic(imgPath,size=[1280,720],margin=50,backgroundRGB=[0,0,0]):
 
     size=tuple(size)
     backgroundRGB=tuple(backgroundRGB)
-    # fontRGB=tuple(fontRGB)
-
     image = Image.new('RGB', size, backgroundRGB) # 设置画布大小及背景色
     iwidth, iheight = image.size # 获取画布高宽
-
-    # 计算字节数，GBK编码下汉字双字，英文单字。都转为双字计算
-    # size=len(text.encode('gbk'))/2
-    # 计算字体大小，每两个字号按字节长度翻倍。
-    # fontSize=math.ceil((iwidth-(margin*2))/size)
-
-    # font = ImageFont.truetype(fontType, fontSize) # 设置字体及字号
-    # draw = ImageDraw.Draw(image)
-
-    # fwidth, fheight = draw.textsize(text, font) # 获取文字高宽
-    # owidth, oheight = font.getoffset(text)
-
-    # fontx = (iwidth - fwidth - owidth) / 2
-    # fonty = (iheight - fheight - oheight) / 2
-
-    # draw.text((fontx, fonty), text, fontRGB, font)
-    image.save(imgPath) # 保存图片
 
 if __name__ == "__main__":
     CreatePic("1.jpg")
