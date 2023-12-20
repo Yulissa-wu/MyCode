@@ -92,6 +92,10 @@ nowrap
 wrap-reverse
 
 align-items:center交錯軸置中
+flex-start
+flex-end
+stretch
+baseline
 
 prview on webserver套件，及時預覽儲存的檔案
 
