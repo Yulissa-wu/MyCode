@@ -88,6 +88,9 @@ space-around
 space-between
 
 flex-wrap:wrap;滿版換行
+nowrap
+wrap-reverse
+
 align-items:center交錯軸置中
 
 prview on webserver套件，及時預覽儲存的檔案
