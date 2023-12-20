@@ -68,3 +68,31 @@ padding-left
 padding-right
 
 box-sizing: border-box; 加了後，所有的大小就依照設定的寬度，border、padding在寬度內
+
+*,*:before,*:after全部標籤都吃到樣式
+
+display:flex;可讓容器內的元件並排
+#footer #使用id屬性
+header頁首
+footer頁尾
+
+flex-direction:row;由左至右
+row-reverse由右至左
+column由上至下
+colunm-reverse由下至上
+
+justify-content
+
+flex-wrap:wrap;滿版換行
+align-items:center交錯軸置中
+
+prview on webserver套件，及時預覽儲存的檔案
+
+position: absolute;絕對定位
+left:0
+right:0
+bottom:0
+top:0
+position:relative相對定位
+
+Z-index數字越大，圖層越上面，一樣大則以最後一個為圖層最上方
