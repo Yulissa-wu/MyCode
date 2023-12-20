@@ -26,14 +26,17 @@ a{
 font-size:?px;文字大小
 font-family:字型名稱;
 line-height:行距大小;
+
 text-align: center;文字置中
 text-align: right;文字置右
 text-align: left;文字置左
+
 test-indent:?px;文字前方空兩格fonr-sizex2
 test-decoration:underline;加上下底線
 test-decoration:line-through;加上刪除線
 letter-spacing:?px;字距大小
 background:顏色;背景顏色
+
 width:?px;寬
 height:?px;高
 display:block;轉換為區塊元素
