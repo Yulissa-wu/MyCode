@@ -43,7 +43,7 @@ display:block;轉換為區塊元素
 display:inline;轉換為行內元素
 font-weight: bold;粗體
 
-border:px 樣式 顏色     在文字或圖片的上下左右加入線
+border:px 樣式 顏色;     在文字或圖片的上下左右加入線
 border
 border-left
 border-right
@@ -59,7 +59,7 @@ margin-top
 margin-bottom
 margin-left
 margin-right
-margin 0 auto 區塊水平置中
+margin:0 auto;區塊水平置中
 
 padding 向內推
 padding-top
@@ -91,7 +91,7 @@ flex-wrap:wrap;滿版換行
 nowrap
 wrap-reverse
 
-align-items:center交錯軸置中
+align-items:center;交錯軸置中
 flex-start
 flex-end
 stretch
@@ -104,6 +104,6 @@ left:0
 right:0
 bottom:0
 top:0
-position:relative相對定位
+position:relative;相對定位
 
 Z-index數字越大，圖層越上面，一樣大則以最後一個為圖層最上方
