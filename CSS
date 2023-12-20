@@ -81,7 +81,7 @@ row-reverse由右至左
 column由上至下
 colunm-reverse由下至上
 
-justify-content: flex-start;
+justify-content: flex-start;主軸
 flex-end
 center
 space-around
